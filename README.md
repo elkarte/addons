@@ -1,19 +1,14 @@
-ElkArte addons
-======
-
-Addons for ElkArte community forum software.
+### Addons for ElkArte community forum software.
 
 This repository holds addons for ElkArte, developed and maintained by the community.
 
-How to add an addon:
-==
+##### How to add an addon:
 
 * fork the repository
 * commit your addon to the /addons subdirectory
 * submit a pull request to us.
 
-Licensing information:
-==
+##### Licensing information:
 
 Addons are under the licenses set by their authors, which you can find in the respective addon subdirectory.
 
