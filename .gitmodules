@@ -4,3 +4,6 @@
 [submodule "addons/are_you_human"]
 	path = addons/are_you_human
 	url = git@github.com:emanuele45/are_you_human
+[submodule "addons/topic_tags"]
+	path = addons/topic_tags
+	url = git@github.com:emanuele45/topic_tags
