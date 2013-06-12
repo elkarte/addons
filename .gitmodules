@@ -1,3 +1,6 @@
 [submodule "addons/tabbed_cats"]
 	path = addons/tabbed_cats
 	url = git@github.com:emanuele45/tabbed_cats
+[submodule "addons/are_you_human"]
+	path = addons/are_you_human
+	url = git@github.com:emanuele45/are_you_human
