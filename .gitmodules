@@ -1,0 +1,3 @@
+[submodule "addons/tabbed_cats"]
+	path = addons/tabbed_cats
+	url = git@github.com:emanuele45/tabbed_cats
