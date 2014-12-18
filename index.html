@@ -68,7 +68,7 @@ layout: default
 			<div class="col-md-3 hidden-xs">
 				{% if post.thumbnail %}
 				<div class="thumbnail">
-					{% if post.thumbnail contains 'http://' %}
+					{% if post.thumbnail contains 'http://' or post.thumbnail contains 'https://' %}
 					<img class="img-rounded" src="{{ post.thumbnail }}" alt="thumbnail">
 					{% else %}
 					<img class="img-rounded" src="{{ site.baseurl }}{{ post.thumbnail }}" alt="thumbnail">
