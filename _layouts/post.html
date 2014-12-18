@@ -49,7 +49,11 @@
 							{% for image in image_hash %}
 							<div class="col-xs-4">
 								<a href="{{ site.baseurl }}{{ image[1] }}" class="thumbnail">
-									<img src="{{ site.baseurl }}{{ image[1] }}" alt="{{ image[0] }}">
+								{% if image[1] contains 'http://' %}
+								<img src="{{ image[1] }}" alt="{{ image[0] }}">
+								{% else %}
+								<img src="{{ site.baseurl }}{{ image[1] }}" alt="{{ image[0] }}">
+								{% endif %}
 								</a>
 							</div>
 								{% if modulo == '0' %}
