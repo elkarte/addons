@@ -1,0 +1,88 @@
+---
+layout: default
+title: "Administration Addons"
+current: admin
+---
+
+{% for post in site.categories['admin'] %}
+<div class="article">
+    <div class="well">
+		<div class="row">
+			<div class="col-md-1 hidden-xs">
+				{% capture cat %}{{ post.category | downcase }}{% endcapture %}
+				{% case cat %}
+					{% when 'admin' %}
+					<i class="glyphicon glyphicon-user lead text-primary" aria-hidden="true"></i>
+					{% when 'utility' %}
+					<i class="glyphicon glyphicon-wrench lead text-primary" aria-hidden="true"></i>
+					{% when 'security' %}
+					<i class="glyphicon glyphicon-eye-open lead text-primary" aria-hidden="true"></i>
+					{% when 'enhancement' %}
+					<i class="glyphicon glyphicon-bell lead text-primary" aria-hidden="true"></i>
+					{% when 'feature' %}
+					<i class="glyphicon glyphicon-leaf lead text-primary" aria-hidden="true"></i>
+					{% when 'smiley' %}
+					<i class="glyphicon glyphicon-heart-empty lead text-primary" aria-hidden="true"></i>
+					{% when 'bbc' %}
+					<i class="glyphicon glyphicon-edit lead text-primary" aria-hidden="true"></i>
+					{% else %}
+					<i class="glyphicon glyphicon-random lead text-primary" aria-hidden="true"></i>
+				{% endcase %}
+			</div>
+			<div class="col-md-8">
+				<h2>
+					<a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+				</h2>
+				<p>
+					<i class="glyphicon glyphicon-calendar" aria-hidden="true"></i>Last Update: {{ post.date | date: "%d %b %Y" }}
+				</p>
+				<div class="content">
+					<dl class="dl-horizontal">
+						<dt>Title</dt>
+						<dd>{{ post.title }}</dd>
+						<dt>Summary</dt>
+						<dd>{{ post.short }}</dd>
+						<dt>Requires</dt>
+						<dd>ElkArte {% if post.elkversion %}{{ post.elkversion }}{% else %}1.0{% endif %} (+)</dd>
+						<dt>Category</dt>
+						<dd>
+						{% include pretty_cat.html %}
+						{{ cat }}
+						</dd>
+						<dt>Author</dt>
+						<dd>{{ post.author }}</dd>
+						<dt>License</dt>
+						<dd>{{ post.license }} 
+						{% capture osi %}{{ post.license | upcase | truncate: 3, '' }}{% endcapture %}
+						{% if osi == 'BSD' or osi == 'MPL' or osi == 'GNU' or osi == 'MIT' or osi == 'APA' or osi == 'WTF' %}
+						<img class="img-circle" style="padding-bottom: 1px;" src="{{ site.baseurl }}/assets/images/osi-icon.png" title="Open Source License" alt="">
+						{% endif %}
+						</dd>
+						<dt>Version</dt>
+						<dd>{{ post.version }}</dd>
+						{% if post.link %}
+						<dt>Link</dt>
+						<dd>{{ post.link }}</dd>
+						{% endif %}
+					</dl>
+				</div>
+			</div>
+			<div class="col-md-3 hidden-xs">
+				{% if post.thumbnail %}
+				<div class="thumbnail">
+					{% if post.thumbnail contains 'http://' or post.thumbnail contains 'https://' %}
+					<img class="img-rounded" src="{{ post.thumbnail }}" alt="thumbnail">
+					{% else %}
+					<img class="img-rounded" src="{{ site.baseurl }}{{ post.thumbnail }}" alt="thumbnail">
+					{% endif %}
+				</div>
+				{% else %}
+				<div class="media media-right">
+					<img class="img-rounded" src="{{ site.baseurl }}/assets/images/addons.png" alt="thumbnail">
+				</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</div>
+{% endfor %}
