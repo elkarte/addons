@@ -10,7 +10,7 @@
 <!-- Most recent from same category -->
 <div class="list-group">
 	<a href="#" class="list-group-item active">
-		Others in {{ cat }}
+		Other <u>{{ cat }}</u> Addons
 	</a>
 	{% for category in site.categories %}
 		{% if category[0] == page.category %}
@@ -34,7 +34,7 @@
 <!-- Others from the same author -->
 <div class="list-group">
 	<a href="#" class="list-group-item active">
-		Some others from <u>{{ page.author }}</u>
+		More addons from <u>{{ page.author }}</u>
 	</a>
 	{% assign authors = site.posts | group_by: "author" %}
 	{% for aposts in authors %}
