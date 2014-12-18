@@ -48,11 +48,12 @@
 							{% capture modulo %}{{ forloop.index | modulo:3 }}{% endcapture %}
 							{% for image in image_hash %}
 							<div class="col-xs-4">
-								<a href="{{ site.baseurl }}{{ image[1] }}" class="thumbnail">
 								{% if image[1] contains 'http://' or image[1] contains 'https://'%}
-								<img src="{{ image[1] }}" alt="{{ image[0] }}">
+								<a href="{{ image[1] }}" class="thumbnail">
+									<img src="{{ image[1] }}" alt="{{ image[0] }}">
 								{% else %}
-								<img src="{{ site.baseurl }}{{ image[1] }}" alt="{{ image[0] }}">
+								<a href="{{ site.baseurl }}{{ image[1] }}" class="thumbnail">
+									<img src="{{ site.baseurl }}{{ image[1] }}" alt="{{ image[0] }}">
 								{% endif %}
 								</a>
 							</div>
