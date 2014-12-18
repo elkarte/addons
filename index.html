@@ -101,6 +101,10 @@ layout: default
 		{% capture end %}{{ paginator.total_pages | minus: 3 }}{% endcapture %}
 		{% capture start %}{{ paginator.page }}{% endcapture %}
 
+		{% if start > '1' %}
+			{% capture start %}{{ paginator.page | minus: 1 }}{% endcapture %}
+		{% endif %}
+
 		{% if start > end %}
 			{% capture start %}{{ end }}{% endcapture %}
 		{% endif %}
