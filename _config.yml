@@ -1,0 +1,35 @@
+# Jekyll configuration
+
+# Name of your blog (this will show up at the top of your page and in the RSS feed)
+name: ElkArte Addons
+
+# Short description (goes below the title; it will also be used in the RSS feed)
+description: Addons to extend / enhance the functionality of your forum.
+
+# baseurl will often be '', but for a project page on gh-pages, it needs to
+# be the project name.
+#baseurl: 'http://spuds.github.io/addons/'
+baseurl: ''
+
+# This can be '' to hide the Github nav button
+github: 'elkarte/addons'
+
+# Set this to your UA-# value, or '' to disable the block completely
+gaaccount: ''
+
+# Set this to your disqus shortname to enable comments. Note that the 'comments'
+# setting below must also be true. Individual posts can override 'comments' to
+# disable on a post-by-post basis
+disqus: ''
+comments: false
+
+permalink: /:year/:month/:title
+paginate: 5
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables"]
+
+#kramdown:
+#  input: GFM

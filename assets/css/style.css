@@ -1,0 +1,68 @@
+/* Page */
+body {
+	font-family: "Segoe UI", "Helvetica Neue", "Liberation Sans", "Nimbus Sans L", "Trebuchet MS", Arial, sans-serif;
+	padding:1%;
+	margin:1%;
+	background: #fff;
+	color: #666;
+	padding-top: 70px;
+}
+
+code {
+	margin-top: 15px;
+	border: 3px solid #FFFFFF;
+	background-color: #CCCC99;
+	display: block;
+	padding: 20px;
+	font-family: monospace;
+	-webkit-box-shadow: 3px 3px 5px #000000;
+	-moz-box-shadow: 3px 3px 5px #000000;
+	box-shadow: 3px 3px 5px #000000;
+	overflow-x: auto;
+}
+
+pre.prettyprint {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.copyright {
+    text-align: center;
+	padding-top: 15px;
+}
+
+.copyright a {
+    color: #ee4444;
+}
+
+.navbar-brand > img  {
+	max-height: 30px;
+}
+
+.navbar-brand  {
+	padding-top: 7px;
+}
+#results-container {
+	position: absolute;
+	margin: -5px 0 0 20px;
+}
+.dl-horizontal dt {
+	width: 100px;
+}
+.dl-horizontal dd {
+    margin-left: 120px;
+}
+@media (max-width: 768px) {
+  .dl-horizontal dt {
+		width: 100%;
+		overflow: hidden;
+		clear: left;
+		text-align: left;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+  }
+  .dl-horizontal dd {
+		margin-left: 0px;
+  }
+}

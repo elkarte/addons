@@ -1,0 +1,95 @@
+{% include header.html %}
+
+<div class="container container-left">
+    <div class="row">
+        <div class="col-md-3 hidden-xs hidden-sm">
+            {% include sidebar_details.html %}
+        </div>
+        <div class="col-md-9">
+			<div class="article">
+				<div class="well">
+					<h2>
+						<a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+					</h2>
+					<p>
+						<i class="glyphicon glyphicon-calendar" aria-hidden="true"></i>Last Update: {{ page.date | date: "%b %-d, %Y" }}
+					</p>
+					<!-- Site Comments header if enabled -->
+					{% if site.comments == true and page.comments == true and site.disqus != '' %}
+					<p class="author"><a href="#disqus_thread">Comments</a></p>
+					{% endif %}
+					<!-- All hooks based addons get a thumbs up, otherwise a notice about edits -->
+					{% if page.allhooks == true or page.allhooks == yes %}
+						{% if page.category != 'smiley' %}
+					<div class="panel panel-default">
+						<div class="panel-body bg-info"><big>
+							<i class="glyphicon glyphicon-thumbs-up text-success" style="font-size: 1.5em" aria-hidden="true"></i>
+							This addon is <u>100% hooks based</u> requiring no source edits to install.</big>
+						</div>
+					</div>
+						{% endif %}
+					{% else %}
+					<div class="panel panel-default">
+						<div class="panel-body bg-warning"><big>
+							<i class="glyphicon glyphicon-pencil text-warning" style="font-size: 1.5em" aria-hidden="true"></i>
+							This addon is requires some source edits to install.</big>
+						</div>
+					</div>
+					{% endif %}
+					<!-- The actual MD text, or html or whatever they put in the page -->
+					<div class="page-content">
+						{{ content }}
+					</div>
+					<!-- If there are images, here is where they go in a nice grid -->
+					{% if page.images %}
+					<div class="container-fluid">
+						<div class="row">
+						{% for image_hash in page.images %}
+							{% capture modulo %}{{ forloop.index | modulo:3 }}{% endcapture %}
+							{% for image in image_hash %}
+							<div class="col-xs-4">
+								<a href="{{ site.baseurl }}{{ image[1] }}" class="thumbnail">
+									<img src="{{ site.baseurl }}{{ image[1] }}" alt="{{ image[0] }}">
+								</a>
+							</div>
+								{% if modulo == '0' %}
+							</div>
+						<div class="row">
+								{% endif %}
+							{% endfor %}
+						{% endfor %}
+						</div>
+					</div>
+					{% endif %}
+					<!-- The download button! -->
+					<div class="text-center">
+						<a href="{{ page.download }}" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-save"></i> Download</a>
+					</div>
+					<!-- Comment body if comments are enabled -->
+					{% if page.comments %}
+					<div id="disqus_thread">
+						<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+					</div>
+					{% endif %}
+				</div>
+			</div>
+			<nav>
+				<ul class="pager">
+					{% if page.previous %}
+					<li class="previous">
+						<a href="{{ site.baseurl}}{{ page.previous.url }}"><span aria-hidden="true"><i class="glyphicon glyphicon-arrow-left"></i></span> Previous</a>
+					</li>
+					{% endif %}
+					{% if page.next %}
+					<li class="next">
+						<a href="{{ site.baseurl}}{{ page.next.url }}">Next <span aria-hidden="true"><i class="glyphicon glyphicon-arrow-right"></i></span></a>
+					</li>
+					{% endif %}
+				</ul>
+			</nav>
+        </div>
+    </div>
+</div>
+
+{% include disqus-comments.html %}
+{% include footer.html %}

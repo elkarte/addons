@@ -1,0 +1,27 @@
+<footer>
+    <nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<div class="copyright">
+				&copy;{{ site.time | date: '%Y' }} {{ site.name }}.
+			</div>
+		</div>
+    </nav>
+</footer>
+
+{% include disqus-counts.html %}
+
+<script src="{{ site.baseurl }}/assets/javascript/jekyll-search.js"></script>
+<script>
+	SimpleJekyllSearch.init({
+		searchInput: document.getElementById('search-input'),
+		resultsContainer: document.getElementById('results-container'),
+		dataSource: '{{ site.baseurl }}/search.json',
+		searchResultTemplate: '<li class="list-group-item"><a href="{url}" title="{short}">{title}</a></li>',
+		noResultsText: 'No results found',
+		limit: 10,
+		fuzzy: false,
+	})
+</script>
+
+</body>
+</html>

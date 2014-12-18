@@ -1,0 +1,18 @@
+{% case cat %}
+	{% when 'admin' %}
+	{% assign cat = 'Administration' %}
+	{% when 'utility' %}
+	{% assign cat = 'Utility' %}
+	{% when 'security' %}
+	{% assign cat = 'Security' %}
+	{% when 'enhancement' %}
+	{% assign cat = 'Enhancement' %}
+	{% when 'feature' %}
+	{% assign cat = 'New Feature' %}
+	{% when 'smiley' %}
+	{% assign cat = 'Smiley' %}
+	{% when 'bbc' %}
+	{% assign cat = 'BBC' %}
+	{% else %}
+	{% assign cat = Other' %}
+{% endcase %}

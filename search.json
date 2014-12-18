@@ -1,0 +1,13 @@
+---
+---
+[
+  {% for post in site.posts %}
+    {
+      "title"       : "{{ post.title | split: " " | join: ", " }}",
+      "category"    : "{{ post.category }}",
+      "short"       : "{{ post.short | split: " " | join: ", " }}",
+      "url"         : "{{ site:baseurl }}{{ post.url }}",
+      "date"        : "{{ post.date }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
