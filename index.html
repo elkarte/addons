@@ -109,9 +109,9 @@ layout: default
 			{% if count == paginator.page %}
 		<li class="active"><a href=''><em>{{ count }}</em></a></li>
 			{% elsif count == 1 %}
-		<li><a href="/index.html">{{count}}</a></li>
+		<li><a href="{{ site.baseurl}}/index.html">{{count}}</a></li>
 			{% else %}
-		<li><a href="/page{{count}}">{{count}}</a></li>
+		<li><a href="{{ site.baseurl}}/page{{count}}">{{count}}</a></li>
 			{% endif %}
 			{% if forloop.index == 4 %}
 				{% break %}
