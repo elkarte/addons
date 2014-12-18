@@ -3,11 +3,11 @@
 [
   {% for post in site.posts %}
     {
-      "title"       : "{{ post.title | split: " " | join: ", " }}",
+      "title"       : "{{ post.title | strip_html | split: " " | join: ", " }}",
       "category"    : "{{ post.category }}",
-      "short"       : "{{ post.short | split: " " | join: ", " }}",
+      "short"       : "{{ post.short | strip_html | split: " " | join: ", " }}",
       "url"         : "{{ site:baseurl }}{{ post.url }}",
-      "date"        : "{{ post.date }}"
+      "date"        : "{{ post.date | strip_html }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
