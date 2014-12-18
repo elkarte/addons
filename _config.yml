@@ -8,8 +8,8 @@ description: Addons to extend / enhance the functionality of your forum.
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
-#baseurl: 'http://spuds.github.io/addons/'
-baseurl: ''
+baseurl: 'http://spuds.github.io/addons/'
+#baseurl: ''
 
 # This can be '' to hide the Github nav button
 github: 'elkarte/addons'
