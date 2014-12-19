@@ -70,10 +70,10 @@
 					<div class="text-center">
 						<a href="{{ page.download }}" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-save"></i> Download</a>
 						{% if page.support and page.support != '' %}
-						<a href="{{ post.support }}" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-bullhorn"></i> Support</a>
+						<a href="{{ page.support }}" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-bullhorn"></i> Support</a>
 						{% endif %}
 						{% if page.bugs and page.bugs != '' %}
-						<a href="{{ post.bugs }}" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-fire text-danger"></i> Issues</a>
+						<a href="{{ page.bugs }}" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-fire text-danger"></i> Issues</a>
 						{% endif %}
 					</div>
 					<!-- Comment body if comments are enabled -->
