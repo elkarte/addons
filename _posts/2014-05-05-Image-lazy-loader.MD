@@ -2,14 +2,16 @@
 layout: post
 title: "Lazy Load Images"
 category: feature
-date: 2014-05-05 00:00:00
+date: 2014-05-05
 comments: false
 short: "Allows your forum images to lazy load"
 license: BSD
 version: 0.0.2
 allhooks: yes
 elkversion: 1.0
-author: "emanuele45"
+support: http://www.elkarte.net/community/index.php?topic=1405.0
+bugs: https://github.com/emanuele45/ImgLazyLoading/issues
+author: emanuele45
 thumbnail:
 download: https://github.com/emanuele45/ImgLazyLoading/archive/master.zip
 images:

@@ -2,14 +2,16 @@
 layout: post
 title: "Hide User Names"
 category: security
-date: 2014-09-06 00:00:00
+date: 2014-09-06
 comments: false
 short: "Hides usernames from guests and replaces them with a text line of your choice"
 license: MPL 1.1
 version: 1.0.0
 allhooks: yes
 elkversion: 1.0
-author: "spuds"
+support: http://www.elkarte.net/community/index.php?topic=1369.0
+bugs: https://github.com/Spuds/Elk-Hide-User-Names/issues
+author: spuds
 thumbnail:
 download: https://github.com/Spuds/Elk-Hide-User-Names/archive/master.zip
 images:

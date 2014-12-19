@@ -2,14 +2,16 @@
 layout: post
 title: "SPB Smart PostBit"
 category: enhancement
-date: 2014-12-08 00:00:00
+date: 2014-12-08
 comments: false
 short: "Adds framing around the topic display profile areas"
 license: BSD
 version: 1.0.2
 allhooks: yes
 elkversion: 1.0
-author: "ahrasis"
+support: http://www.elkarte.net/community/index.php?topic=2102.0
+bugs:
+author: ahrasis
 thumbnail: http://www.elkarte.net/community/index.php?action=dlattach;topic=2102.0;attach=1964;image
 download: http://www.elkarte.net/community/index.php?topic=2102.0
 images:

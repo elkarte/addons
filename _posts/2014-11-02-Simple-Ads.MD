@@ -2,14 +2,16 @@
 layout: post
 title: "Simple Ads"
 category: feature
-date: 2014-11-02 00:00:00
+date: 2014-11-02
 comments: false
 short: "Allows you to display HTML Ads in various locations of your forum"
 license: BSD
 version: 1.0.0
 allhooks: yes
 elkversion: 1.0
-author: "[SiNaN]"
+support: http://www.elkarte.net/community/index.php?topic=2168.0
+bugs: https://github.com/Spuds/Elk-Simple-Ads/issues
+author: [SiNaN]
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk-Simple-Ads/master/sample_images/sa_acp.jpg
 download: https://github.com/Spuds/Elk-Simple-Ads/archive/master.zip
 images:

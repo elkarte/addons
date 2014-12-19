@@ -2,14 +2,16 @@
 layout: post
 title: "Redirect to external website"
 category: enhancement
-date: 2013-11-22 00:00:00
+date: 2013-11-22
 comments: false
 short: "Present notification to user they are leaving the site to follow a link"
 license: BSD
 version: 0.0.1
 allhooks: yes
 elkversion: 1.0
-author: "emanuele45"
+support: http://www.elkarte.net/community/index.php?topic=2258.0
+bugs: https://github.com/emanuele45/Redirect-to-external/issues
+author: emanuele45
 thumbnail:
 download: https://github.com/emanuele45/Redirect-to-external/releases/download/v0.0.1/Redirect-to-ext_0-0-1.tar.gz
 images:

@@ -1,2 +1,6 @@
 /_site/nbproject/private/
 /_site
+_config.yml
+CNAME
+Gemfile
+Gemfile.lock

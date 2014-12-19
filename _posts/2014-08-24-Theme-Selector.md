@@ -2,14 +2,16 @@
 layout: post
 title: "Theme Selector"
 category: feature
-date: 2014-10-05 00:00:00
+date: 2014-10-05
 comments: false
 short: "Adds a selector that allows users to pick a different theme/variant for the forum"
 license: BSD
 version: 1.0
 allhooks: yes
 elkversion: 1.0
-author: "emanuele45"
+support: http://www.elkarte.net/community/index.php?topic=1897.0
+bugs: https://github.com/emanuele45/ThemeSelector/issues
+author: emanuele45
 thumbnail:
 download: https://github.com/emanuele45/ThemeSelector/releases/download/0.1.2/ThemeSelector_0-1-2.zip
 images:

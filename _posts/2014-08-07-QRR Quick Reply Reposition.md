@@ -2,14 +2,16 @@
 layout: post
 title: "QRR: Quick Reply Reposition"
 category: enhancement
-date: 2014-11-05 00:00:00
+date: 2014-11-05
 comments: false
 short: "re-positions the quickreply box to immediately after the last post."
 license: BSD
 version: 1.0.2
 allhooks: yes
 elkversion: 1.0
-author: "ahrasis"
+support: http://www.elkarte.net/community/index.php?topic=1822.0
+bugs:
+author: ahrasis
 thumbnail:
 download: http://www.elkarte.net/community/index.php?topic=1822.0
 images:

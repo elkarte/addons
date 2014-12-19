@@ -2,14 +2,16 @@
 layout: post
 title: "Simple Portal"
 category: feature
-date: 2014-12-09 00:00:00
+date: 2014-12-09
 comments: false
-short: "Adds a portal to your forum"
+short: "Adds a portal to your forum, block, article and page support"
 license: BSD
 version: 2.4.0 alpha
 allhooks: no
 elkversion: 1.0
-author: "Simple Portal Team"
+support: http://www.elkarte.net/community/index.php?topic=1399.0
+bugs: https://github.com/Spuds/Elk-SimplePortal/issues
+author: Simple Portal Team
 thumbnail:
 download: https://github.com/Spuds/Elk-SimplePortal/archive/master.zip
 images:

@@ -2,14 +2,16 @@
 layout: post
 title: "Users Online Today"
 category: enhancement
-date: 2014-10-05 00:00:00
+date: 2014-10-05
 comments: false
 short: "Adds to the info center a list of users that logged in today"
 license: BSD
 version: 0.2.1
 allhooks: yes
 elkversion: 1.0
-author: "emanuele45"
+support: http://www.elkarte.net/community/index.php?topic=1493.0
+bugs: https://github.com/emanuele45/OnlineToday/issues
+author: emanuele45
 thumbnail:
 download: https://github.com/emanuele45/OnlineToday/releases/download/0.2.1/OnlineToday_0-2-1.zip
 images:

@@ -2,14 +2,16 @@
 layout: post
 title: "Image Cache"
 category: enhancement
-date: 2014-07-28 00:00:00
+date: 2014-07-28
 comments: false
 short: "Allows browsers to show external images or https connections"
 license: BSD
 version: 0.1.0
 allhooks: yes
 elkversion: 1.0
-author: "emanuele45"
+support: http://www.elkarte.net/community/index.php?topic=1791.0
+bugs: https://github.com/emanuele45/imgcache/issues
+author: emanuele45
 thumbnail:
 download: https://github.com/emanuele45/imgcache/releases/download/v0.1.0/imgcache_0-1-0.zip
 images:

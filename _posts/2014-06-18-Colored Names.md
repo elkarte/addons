@@ -2,14 +2,16 @@
 layout: post
 title: "Colored Names"
 category: enhancement
-date: 2014-07-28 00:00:00
+date: 2014-07-28
 comments: false
 short: "Introduces the ability to change the color of the display name"
 license: BSD
 version: 0.0.3
 allhooks: yes
 elkversion: 1.0
-author: "emanuele45"
+support: http://www.elkarte.net/community/index.php?topic=1583.0
+bugs: https://github.com/emanuele45/ColoredNames/issues
+author: emanuele45
 thumbnail: http://www.elkarte.net/community/index.php?action=dlattach;topic=1583.0;attach=1049;image
 download: https://github.com/emanuele45/ColoredNames/releases/download/0.0.3/ColoredNames_0-0-3.zip
 images:

@@ -2,14 +2,16 @@
 layout: post
 title: "Mentions Dropdown"
 category: enhancement
-date: 2014-06-21 00:00:00
+date: 2014-06-21
 comments: false
 short: "Add a mention dropdown to the mentions menu"
 license: BSD
 version: 0.1.0
 allhooks: yes
 elkversion: 1.0
-author: "emanuele45"
+support: http://www.elkarte.net/community/index.php?topic=1604.0
+bugs: https://github.com/emanuele45/MentionsDroppy/issues
+author: emanuele45
 thumbnail:
 download: https://github.com/emanuele45/MentionsDroppy/releases/download/0.1.0/MentionsDroppy_0-1-0.zip
 images:

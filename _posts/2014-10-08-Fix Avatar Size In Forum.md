@@ -2,14 +2,16 @@
 layout: post
 title: "FASIF: Fix Avatar Size In Forum"
 category: enhancement
-date: 2014-11-05 00:00:00
+date: 2014-11-05
 comments: false
 short: "Fix Avatar Size In Forum"
 license: BSD
 version: 1.0.3
 allhooks: yes
 elkversion: 1.0
-author: "ahrasis"
+support: http://www.elkarte.net/community/index.php?topic=2101.0
+bugs:
+author: ahrasis
 thumbnail: http://www.elkarte.net/community/index.php?action=dlattach;topic=2101.0;attach=1693;image
 download: http://www.elkarte.net/community/index.php?topic=2101.0
 images:

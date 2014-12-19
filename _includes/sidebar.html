@@ -6,7 +6,7 @@
 </div>
 
 <div class="list-group">
-	<a href="#" class="list-group-item active">
+	<a href="#" class="list-group-item active disabled">
 		Categories
 	</a>
 	{% for categories in site.categories %}
@@ -25,7 +25,7 @@
 </div>
 
 <div class="list-group">
-	<a href="#" class="list-group-item active">
+	<a href="#" class="list-group-item active disabled">
 		Recent Updates
 	</a>
 	{% assign posts = (site.posts | sort: 'date') %}

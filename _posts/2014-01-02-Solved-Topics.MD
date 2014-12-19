@@ -2,14 +2,16 @@
 layout: post
 title: "Solve Topics"
 category: feature
-date: 2014-09-06 00:00:00
+date: 2014-09-06
 comments: false
 short: "Allow marking a topic solved or unsolved"
 license: BSD
 version: 1.0.0
 allhooks: yes
 elkversion: 1.0
-author: "[SiNaN]"
+support: http://www.elkarte.net/community/index.php?topic=1394.0
+bugs: https://github.com/Spuds/Elk-Solved-Topics/issues
+author: [SiNaN]
 thumbnail:
 download: https://github.com/Spuds/Elk-Solved-Topics/archive/master.zip
 images:

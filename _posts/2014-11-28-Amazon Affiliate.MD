@@ -9,7 +9,9 @@ license: MPL 1.1
 version: 1.0.0
 allhooks: yes
 elkversion: 1.0
-author: "TE"
+support: http://www.elkarte.net/community/index.php?topic=2236.0
+bugs: https://github.com/eurich/ElkAmazonAffiliate/issues
+author: TE
 thumbnail: http://www.elkarte.net/community/index.php?action=dlattach;topic=2236.0;attach=1905;image
 download: https://github.com/eurich/ElkAmazonAffiliate/archive/master.zip
 images:
@@ -21,7 +23,7 @@ images:
 Simple addon to add your Amazon affiliate id to any existing link to the Amazon websites in order to earn money from those links.
 There's only one setting, see attached screenshot.
 
-###Note: The affiliate id is added to the hyperlink, not the link title. 
+### Note: The affiliate id is added to the hyperlink, not the link title. 
 
 ## Installation:
 {% include install_std.MD %}

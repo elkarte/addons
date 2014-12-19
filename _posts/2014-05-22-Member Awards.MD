@@ -2,14 +2,16 @@
 layout: post
 title: "Member Awards"
 category: feature
-date: 2014-11-28 00:00:00
+date: 2014-11-28
 comments: false
 short: "A system where members can be given awards to display in their profile and posts."
 license: MPL 1.1
 version: 1.0.0
 allhooks: no
 elkversion: 1.0
-author: "spuds"
+support: http://www.elkarte.net/community/index.php?topic=1447.0
+bugs: https://github.com/Spuds/Elk-Member-Awards/issues
+author: spuds
 thumbnail: http://raw.githubusercontent.com/Spuds/Elk-Member-Awards/master/sample_images/ma_postpage.jpg
 download: https://github.com/Spuds/Elk-Member-Awards/archive/master.zip
 images:

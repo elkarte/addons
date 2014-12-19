@@ -2,14 +2,16 @@
 layout: post
 title: "Miserable User"
 category: feature
-date: 2014-09-06 00:00:00
+date: 2014-09-06
 comments: false
 short: "Targets problem users and enables various site deterrents to disrupt their visit"
 license: MPL 1.1
 version: 1.0.0
 allhooks: yes
 elkversion: 1.0
-author: "spuds"
+support: http://www.elkarte.net/community/index.php?topic=1907.0
+bugs: https://github.com/Spuds/Elk-Misery/issues
+author: spuds
 thumbnail:
 download: https://github.com/Spuds/Elk-Misery/archive/master.zip
 images:

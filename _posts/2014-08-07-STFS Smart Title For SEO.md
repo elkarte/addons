@@ -2,14 +2,16 @@
 layout: post
 title: "STFS: Smart Title For SEO"
 category: enhancement
-date: 2014-10-08 00:00:00
+date: 2014-10-08
 comments: false
 short: "Updates the page title to reflect the current page"
 license: BSD
 version: 1.3.0
 allhooks: yes
 elkversion: 1.0
-author: "ahrasis"
+support: http://www.elkarte.net/community/index.php?topic=1824.0
+bugs:
+author: ahrasis
 thumbnail: http://www.elkarte.net/community/index.php?action=dlattach;topic=1824.0;attach=1241;image
 download: http://www.elkarte.net/community/index.php?topic=2227.0
 images:

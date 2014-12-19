@@ -2,14 +2,16 @@
 layout: post
 title: "Tabular Categories"
 category: enhancement
-date: 2014-06-27 00:00:00
+date: 2014-06-27
 comments: false
 short: "Adds a tabular category view to the board index."
 license: BSD
 version: 0.0.2
 allhooks: yes
 elkversion: 1.0
-author: "emanuele45"
+support: http://www.elkarte.net/community/index.php?topic=389.0
+bugs: https://github.com/emanuele45/tabbed_cats/issues
+author: emanuele45
 thumbnail: /assets/images/Tabular-Categories/screen_147.png
 download: https://github.com/emanuele45/tabbed_cats/releases/download/tabcat_0.1.0/TabularCategories_0-1-0.zip
 images:

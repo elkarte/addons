@@ -2,14 +2,16 @@
 layout: post
 title: "InLine Attachments"
 category: feature
-date: 2014-11-17 00:00:00
+date: 2014-11-17
 comments: false
 short: "Allows you to place attachments inline with your post text"
 license: MPL 1.1
 version: 1.0.0
 allhooks: yes
 elkversion: 1.0
-author: "spuds"
+support: http://www.elkarte.net/community/index.php?topic=1450.0
+bugs: https://github.com/Spuds/Elk_Inline_Attachments/issues
+author: spuds
 thumbnail:
 download: https://github.com/Spuds/Elk_Inline_Attachments/archive/master.zip
 images:

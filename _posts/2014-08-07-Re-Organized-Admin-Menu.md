@@ -2,14 +2,16 @@
 layout: post
 title: "ROAM - Re-Organized Admin Menu"
 category: admin
-date: 2014-10-18 00:00:00
+date: 2014-10-18
 comments: false
 short: "Reorganize admin menu for ElkArte"
 license: BSD
 version: 1.2.1
 allhooks: yes
 elkversion: 1.0
-author: "ahrasis"
+support: http://www.elkarte.net/community/index.php?topic=1821.0
+bugs:
+author: ahrasis
 thumbnail: http://www.elkarte.net/community/index.php?action=dlattach;topic=1821.0;attach=1246;image
 download: http://www.elkarte.net/community/index.php?topic=1821.0
 images:

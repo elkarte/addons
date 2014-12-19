@@ -2,16 +2,18 @@
 layout: post
 title: "Favicon next to links"
 category: enhancement
-date: 2014-06-23 00:00:00
+date: 2014-06-23
 comments: false
 short: "Add the favicon next to the link"
 license: BSD
 version: 0.0.1
 allhooks: yes
 elkversion: 1.0
-author: "emanuele45"
+support: http://www.elkarte.net/community/index.php?topic=1419.0
+bugs: https://github.com/emanuele45/Url-Favicon/issues
+author: emanuele45
 thumbnail:
-download: https://github.com/emanuele45/SortNews/releases/download/0.0.3/SortNews_0-0-3.zip
+download: https://github.com/emanuele45/Url-Favicon/releases/download/0.0.1/UrlFavicon_0-1-0.zip
 images:
 ---
 

@@ -2,14 +2,16 @@
 layout: post
 title: "Topic Prefixes"
 category: security
-date: 2014-11-11 00:00:00
+date: 2014-11-11
 comments: false
-short: "Introduces the ability to add topic prefixes."
+short: "Introduces the ability to add topic prefixes"
 license: BSD
 version: 0.0.2
 allhooks: yes
 elkversion: 1.0
-author: "emanuele45"
+support: http://www.elkarte.net/community/index.php?topic=1424.0
+bugs: https://github.com/emanuele45/TopicPrefix/issues
+author: emanuele45
 thumbnail:
 download: https://github.com/emanuele45/TopicPrefix/releases/download/v0.0.2/TopicsPrefix_0-0-2.zip
 images:

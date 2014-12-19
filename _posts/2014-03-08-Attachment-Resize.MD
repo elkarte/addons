@@ -2,14 +2,16 @@
 layout: post
 title: "Attachment Image Resizing"
 category: utility
-date: 2014-09-06 00:00:00
+date: 2014-09-06
 comments: false
 short: "Automatically resizes uploaded attachments to set limits"
 license: MPL 1.1
 version: 1.0.0
 allhooks: yes
 elkversion: 1.0
-author: "spuds"
+support: http://www.elkarte.net/community/index.php?topic=1372.0
+bugs: https://github.com/Spuds/Elk_Resize_Attachment_Images/issues
+author: spuds
 thumbnail:
 download: https://github.com/Spuds/Elk_Resize_Attachment_Images/archive/master.zip
 images:

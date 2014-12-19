@@ -2,14 +2,16 @@
 layout: post
 title: "HLBM: Highlight Buddy Message"
 category: enhancement
-date: 2014-11-05 00:00:00
+date: 2014-11-05
 comments: false
 short: "highlight buddy message background with lightcyan color"
 license: BSD
 version: 1.0.1
 allhooks: yes
 elkversion: 1.0
-author: "ahrasis"
+support: http://www.elkarte.net/community/index.php?topic=2227.0
+bugs:
+author: ahrasis
 thumbnail:
 download: http://www.elkarte.net/community/index.php?topic=2227.0
 images:

@@ -2,14 +2,16 @@
 layout: post
 title: "Google Analytics"
 category: enhancement
-date: 2014-11-10 00:00:00
+date: 2014-11-10
 comments: false
 short: "Adds your Google Analytics tracking code to your site"
 license: BSD
 version: 0.1.0
 allhooks: yes
 elkversion: 1.0
-author: "emanuele45"
+support: http://www.elkarte.net/community/index.php?topic=2179.0
+bugs: https://github.com/emanuele45/GAnalytics/issues
+author: emanuele45
 thumbnail:
 download: https://github.com/emanuele45/GAnalytics/archive/master.zip
 images:

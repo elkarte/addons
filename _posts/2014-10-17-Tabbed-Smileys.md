@@ -2,14 +2,16 @@
 layout: post
 title: "Tabbed Smileys"
 category: enhancement
-date: 2014-10-17 00:00:00
+date: 2014-10-17
 comments: false
-short: "Add ability to sort news items with drag/drop"
+short: "Organize your smiles with accessible tabs at the top of the post editor"
 license: BSD
 version: 0.1.1
 allhooks: yes
-elkversion: 1.1
-author: "emanuele45"
+elkversion: 1.0.1
+support: http://www.elkarte.net/community/index.php?topic=1749.0
+bugs: https://github.com/emanuele45/Tabbed-Smileys/issues
+author: emanuele45
 thumbnail:
 download: https://github.com/emanuele45/Tabbed-Smileys/releases/download/e0.1.1/Tabbed-Smiley_0-1-1.zip
 images:

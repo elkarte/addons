@@ -2,14 +2,16 @@
 layout: post
 title: "Bookmarks"
 category: feature
-date: 2014-11-02 00:00:00
+date: 2014-11-02
 comments: false
 short: "Allows your members to bookmark topics so they can find them easily in the future"
 license: BSD
 version: 1.0.0
 allhooks: yes
 elkversion: 1.0
-author: "Aaron"
+support: http://www.elkarte.net/community/index.php?topic=1811.0
+bugs: https://github.com/Spuds/Elk-Bookmarks/issues
+author: Aaron
 thumbnail:
 download: https://github.com/Spuds/Elk-Bookmarks/archive/master.zip
 images:

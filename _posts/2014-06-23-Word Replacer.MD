@@ -2,14 +2,16 @@
 layout: post
 title: "Word Replace"
 category: feature
-date: 2014-05-23 00:00:00
+date: 2014-05-23
 comments: false
 short: "BBC only word censor"
 license: BSD
 version: 0.1.1
 allhooks: yes
 elkversion: 1.0
-author: "emanuele45"
+support: http://www.elkarte.net/community/index.php?topic=1392.0
+bugs: https://github.com/emanuele45/WordReplacer/issues
+author: emanuele45
 thumbnail:
 download: https://github.com/emanuele45/WordReplacer/archive/master.zip
 images:

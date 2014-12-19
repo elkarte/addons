@@ -2,14 +2,16 @@
 layout: post
 title: "Topic Author"
 category: enhancement
-date: 2014-11-20 00:00:00
+date: 2014-11-20
 comments: false
 short: "Display social links in the first post of a topic"
 license: "MPL 1.1"
 version: 1.0.0
 allhooks: yes
 elkversion: 1.0
-author: "phantom"
+support: http://www.elkarte.net/community/index.php?topic=2208.0
+bugs:
+author: phantom
 thumbnail: http://www.elkarte.net/community/index.php?action=dlattach;topic=2208.0;attach=1873;image
 download: http://www.elkarte.net/community/index.php?action=dlattach;topic=2208.0;attach=1872
 images:

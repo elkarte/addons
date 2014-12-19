@@ -2,14 +2,16 @@
 layout: post
 title: "Censored Word List"
 category: other
-date: 2014-09-06 00:00:00
+date: 2014-09-06
 comments: false
 short: "Adds a long list of words to the censored word listing"
 license: WTF
 version: 1.0.0
 allhooks: yes
 elkversion: 1.0
-author: "spuds"
+support: http://www.elkarte.net/community/index.php?topic=1596.0
+bugs: https://github.com/Spuds/Elk-Censored-Word-Llist/issues
+author: spuds
 thumbnail:
 download: https://github.com/Spuds/Elk-Censored-Word-Llist/archive/master.zip
 images:

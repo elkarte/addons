@@ -2,14 +2,16 @@
 layout: post
 title: "Smiley Android"
 category: smiley
-date: 2014-09-06 00:00:00
+date: 2014-09-06
 comments: false
 short: "Adds a set of Droid smileys to your forum"
 license: Apache
 version: 1.0.0
 allhooks: yes
 elkversion: 1.0
-author: "spuds"
+support: http://www.elkarte.net/community/index.php?topic=1581.0
+bugs: https://github.com/Spuds/Elk-Droid-Smiley/issues
+author: spuds
 thumbnail: /assets/images/Smiley-Android/smiley_android.png
 download: https://github.com/Spuds/Elk-Droid-Smiley/archive/master.zip
 images:

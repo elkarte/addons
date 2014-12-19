@@ -10,24 +10,7 @@ current: smiley
 		<div class="row">
 			<div class="col-md-1 hidden-xs">
 				{% capture cat %}{{ post.category | downcase }}{% endcapture %}
-				{% case cat %}
-					{% when 'admin' %}
-					<i class="glyphicon glyphicon-user lead text-primary" aria-hidden="true"></i>
-					{% when 'utility' %}
-					<i class="glyphicon glyphicon-wrench lead text-primary" aria-hidden="true"></i>
-					{% when 'security' %}
-					<i class="glyphicon glyphicon-eye-open lead text-primary" aria-hidden="true"></i>
-					{% when 'enhancement' %}
-					<i class="glyphicon glyphicon-bell lead text-primary" aria-hidden="true"></i>
-					{% when 'feature' %}
-					<i class="glyphicon glyphicon-leaf lead text-primary" aria-hidden="true"></i>
-					{% when 'smiley' %}
-					<i class="glyphicon glyphicon-heart-empty lead text-primary" aria-hidden="true"></i>
-					{% when 'bbc' %}
-					<i class="glyphicon glyphicon-edit lead text-primary" aria-hidden="true"></i>
-					{% else %}
-					<i class="glyphicon glyphicon-random lead text-primary" aria-hidden="true"></i>
-				{% endcase %}
+				{% include icon_cat.html %}
 			</div>
 			<div class="col-md-8">
 				<h2>
@@ -41,7 +24,7 @@ current: smiley
 						<dt>Title</dt>
 						<dd>{{ post.title }}</dd>
 						<dt>Summary</dt>
-						<dd>{{ post.short }}</dd>
+						<dd>{{ post.short }}<sup><a href="{{ site.baseurl}}{{ post.url }}"><i class="glyphicon glyphicon-plus-sign text-info"></i></a></sup></dd>
 						<dt>Requires</dt>
 						<dd>ElkArte {% if post.elkversion %}{{ post.elkversion }}{% else %}1.0{% endif %} (+)</dd>
 						<dt>Category</dt>
@@ -80,6 +63,13 @@ current: smiley
 				<div class="media media-right">
 					<img class="img-rounded" src="{{ site.baseurl }}/assets/images/addons.png" alt="thumbnail">
 				</div>
+				{% endif %}
+				<a href="{{ post.download }}" class="btn btn-info btn-block"><i class="glyphicon glyphicon-save pull-left"></i> Download</a>
+				{% if post.support and post.support != '' %}
+				<a href="{{ post.support }}" class="btn btn-info btn-block"><i class="glyphicon glyphicon-bullhorn pull-left"></i> Support</a>
+				{% endif %}
+				{% if post.bugs and post.bugs != '' %}
+				<a href="{{ post.bugs }}" class="btn btn-info btn-block"><i class="glyphicon glyphicon-fire pull-left text-danger"></i> Issues</a>
 				{% endif %}
 			</div>
 		</div>
