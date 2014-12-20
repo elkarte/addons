@@ -10,7 +10,7 @@ current: feature
 		<div class="row">
 			<div class="col-md-1 hidden-xs">
 				{% capture cat %}{{ post.category | downcase }}{% endcapture %}
-				{% include icon_cat.html %}
+				<span class="lead">{% include icon_cat.html %}</span>
 			</div>
 			<div class="col-md-8">
 				<h2>

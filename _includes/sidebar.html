@@ -6,26 +6,25 @@
 </div>
 
 <div class="list-group">
-	<a href="#" class="list-group-item active disabled">
+	<a href="#" class="list-group-item disabled">
 		Categories
 	</a>
 	{% for categories in site.categories %}
 		{% assign cat = categories[0] %}
-		{% include pretty_cat.html %}
 		{% if page.current and page.current == categories[0] %}
 	<a class="list-group-item active" href="{{ site.baseurl}}/categories/{{ categories[0] }}.html">
-		<i class="glyphicon glyphicon-hand-right" aria-hidden="true"></i> {{ cat }}
+		<i class="glyphicon glyphicon-hand-right" aria-hidden="true"></i> {% include pretty_cat.html %} {{ cat }}
 	</a>
 		{% else %}
 	<a class="list-group-item" href="{{ site.baseurl}}/categories/{{ categories[0] }}.html">
-		<i class="glyphicon glyphicon-hand-right" aria-hidden="true"></i> {{ cat }}
+		{% include icon_cat.html %}{% include pretty_cat.html %} {{ cat }}
 	</a>
 		{% endif %}
 	{% endfor %}
 </div>
 
 <div class="list-group">
-	<a href="#" class="list-group-item active disabled">
+	<a href="#" class="list-group-item disabled">
 		Recent Updates
 	</a>
 	{% assign posts = (site.posts | sort: 'date') %}
