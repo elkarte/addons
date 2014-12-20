@@ -1,6 +1,6 @@
 # Jekyll configuration
 
-# Name of your blog (this will show up at the top of your page and in the RSS feed)
+# Name of your site (this will show up at the top of your page and in the RSS feed)
 name: ElkArte Addons
 
 # Short description (goes below the title; it will also be used in the RSS feed)
@@ -31,5 +31,5 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables"]
 
-#kramdown:
-#  input: GFM
+kramdown:
+  input: GFM
