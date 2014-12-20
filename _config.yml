@@ -33,3 +33,5 @@ redcarpet:
 
 kramdown:
   input: GFM
+
+exclude: [vendor]
