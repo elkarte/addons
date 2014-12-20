@@ -13,7 +13,7 @@ support: http://www.elkarte.net/community/index.php?topic=1824.0
 bugs:
 author: ahrasis
 thumbnail: http://www.elkarte.net/community/index.php?action=dlattach;topic=1824.0;attach=1241;image
-download: http://www.elkarte.net/community/index.php?topic=2227.0
+download: http://www.elkarte.net/community/index.php?topic=1824.0
 images:
   - Sample: http://www.elkarte.net/community/index.php?action=dlattach;topic=1824.0;attach=1241;image
 ---
