@@ -10,7 +10,7 @@ current: smiley
 		<div class="row">
 			<div class="col-md-1 hidden-xs">
 				{% capture cat %}{{ post.category | downcase }}{% endcapture %}
-				{% include icon_cat.html %}
+				<span class="lead">{% include icon_cat.html %}</span>
 			</div>
 			<div class="col-md-8">
 				<h2>
@@ -38,7 +38,7 @@ current: smiley
 						<dd>{{ post.license }} 
 						{% capture osi %}{{ post.license | upcase | truncate: 3, '' }}{% endcapture %}
 						{% if osi == 'BSD' or osi == 'MPL' or osi == 'GNU' or osi == 'MIT' or osi == 'APA' or osi == 'WTF' %}
-						<img class="img-circle" style="padding-bottom: 1px;" src="{{ site.baseurl }}/assets/images/osi-icon.png" title="Open Source License" alt="">
+						<img class="img-circle" style="padding-bottom: 1px;" src="{{ site.baseurl }}/assets/images/osi-icon.png" title="Open Source License" alt="OSI">
 						{% endif %}
 						</dd>
 						<dt>Version</dt>

@@ -26,10 +26,10 @@ For each attachment you can select how and where the attachment appears within t
 
 ## Features:
 -  Adds new bbcodes to position attachments within the post, note n is the number of the attachment in the post, eg first = 1, second = 2, etc
-  -  [attachimg=n] (full size image)
-  -  [attach=n] (thumbnail image)
-  -  [attachurl=n] (link with view/download count)
-  -  [attachmini=n] (simple link)
+  -  ```[attachimg=n] (full size image)```
+  -  ```[attach=n] (thumbnail image)```
+  -  ```[attachurl=n] (link with view/download count)```
+  -  ```[attachmini=n] (simple link)```
 -  Use simple [attach] tag to insert the added attachments sequentially
 -  Adds optional align and width attributes as [attachimg=1 align=left width=80]
 -  Align can be left, right or center.  For left and right aligns the text will flow around the image

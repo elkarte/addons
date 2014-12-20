@@ -12,13 +12,13 @@ elkversion: 1.0
 support: http://www.elkarte.net/community/index.php?topic=1447.0
 bugs: https://github.com/Spuds/Elk-Member-Awards/issues
 author: spuds
-thumbnail: http://raw.githubusercontent.com/Spuds/Elk-Member-Awards/master/sample_images/ma_postpage.jpg
+thumbnail: https://raw.githubusercontent.com/Spuds/Elk-Member-Awards/master/sample_images/ma_postpage.jpg
 download: https://github.com/Spuds/Elk-Member-Awards/archive/master.zip
 images:
-  - Postpage: http://raw.githubusercontent.com/Spuds/Elk-Member-Awards/master/sample_images/ma_postpage.jpg
-  - Profile: http://raw.githubusercontent.com/Spuds/Elk-Member-Awards/master/sample_images/ma_profile.jpg
-  - Add: http://raw.githubusercontent.com/Spuds/Elk-Member-Awards/master/sample_images/ma_add.jpg
-  - Admin: http://raw.githubusercontent.com/Spuds/Elk-Member-Awards/master/sample_images/ma_admin.jpg
+  - Postpage: https://raw.githubusercontent.com/Spuds/Elk-Member-Awards/master/sample_images/ma_postpage.jpg
+  - Profile: https://raw.githubusercontent.com/Spuds/Elk-Member-Awards/master/sample_images/ma_profile.jpg
+  - Add: https://raw.githubusercontent.com/Spuds/Elk-Member-Awards/master/sample_images/ma_add.jpg
+  - Admin: https://raw.githubusercontent.com/Spuds/Elk-Member-Awards/master/sample_images/ma_admin.jpg
 ---
 
 ## Introduction:
