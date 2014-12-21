@@ -102,7 +102,7 @@ layout: default
 
 		{% for count in (start..paginator.total_pages) %}
 			{% if count == paginator.page %}
-		<li class="active disabled"><a href="#"><em>{{ count }}</em></a></li>
+		<li class="active"><a href="#"><em>{{ count }}</em></a></li>
 			{% elsif count == 1 %}
 		<li><a href="{{ site.baseurl}}/index.html">{{count}}</a></li>
 			{% else %}
