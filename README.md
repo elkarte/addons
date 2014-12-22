@@ -14,23 +14,23 @@ front matter
 detailed description  
 ``` 
 ###Front Matter
-The front matter is what makes everything cool happen. The front matter must be the first thing in the file and must take the form of valid YAML set between
-triple-dashed lines. Meaning the information contained between the --- & --- tags is in YAML format and is specially processed by Jekyll.   
+The front matter is what makes everything cool happen. The front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines. Meaning the information contained between the --- & --- tags is in YAML format and is specially processed by Jekyll.
+
 Don't want to learn YAML?, good neither did I and you don't have either, just follow along.  
   
 ###Example front matter
 ```
 ---  
 layout: post  
-title:"Title of addon"  
+title: "Title of addon"  
 category: name  
 date: YYYY-MM-DD  
-comments:false  
-short:"A short description of the addon"  
+comments: false  
+short: "A short description of the addon"  
 license: license  
 version: x.x.x  
-allhooks:boolean  
-elkversion:1.0  
+allhooks: boolean  
+elkversion: 1.0  
 support: valid link ornull  
 bugs: valid link ornull  
 author: thats you  
