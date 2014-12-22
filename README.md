@@ -14,14 +14,14 @@ front matter
 ---  
   
 detailed description  
- 
-**Front Matter**  
+``` 
+###Front Matter
 The front matter is what makes everything cool happen. The front matter must be the first thing in the file and must take the form of valid YAML set between
 triple-dashed lines. Meaning the information contained between the --- & --- tags is in YAML format and is specially processed by Jekyll.   
 Don't want to learn YAML?, good neither did I and you don't have either, just follow along.  
   
-**Example front matter**  
-Code: [[Select]](javascript:void(0);)
+###Example front matter
+```
 ---  
 layout: post  
 title:"Title of addon"  
