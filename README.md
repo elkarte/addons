@@ -1,11 +1,9 @@
 ##Introduction
 You finished your addon and now want to add it to the [addon site](http://addons.elkarte.net), great!  
   
-To do so you need to make a PR to the elkarte/addons repo, the how to fork a repo, make a local copy, apply your changes, and submit the PR are not part of this
-guide. There are many guides on how to do this and it all depends on what tools you have chosen. This help text assumes you know how to make a PR.  
+To do so you need to make a PR to the elkarte/addons repo, the how to fork a repo, make a local copy, apply your changes, and submit the PR are not part of this guide. There are many guides on how to do this and it all depends on what tools you have chosen. This help text assumes you know how to make a PR.  
   
-To add your addon to the listing, you need to commit just a single file under the _posts directory. The file must follow the naming convention of
-YYYY-MM-DD-Addon Name The date should be the intial release date of your addon, that date is only used to create the permalink to the file.  
+To add your addon to the listing, you need to commit just a single file under the _posts directory. The file must follow the naming convention of YYYY-MM-DD-Addon Name. The date should be the initial release date of your addon, that date is only used to create the permalink to the file.  
   
 The above file must contain the following sections (see any of the existing files in the _posts directory for examples)  
 ```
