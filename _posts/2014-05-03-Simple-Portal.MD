@@ -2,23 +2,25 @@
 layout: post
 title: "Simple Portal"
 category: feature
-date: 2014-12-09
+date: 2014-12-23
 comments: false
 short: "Adds a portal to your forum, block, article and page support"
 license: BSD
-version: 2.4.0 alpha
+version: 0.0.1
 allhooks: no
-elkversion: 1.0
+elkversion: 1.0.1
 support: http://www.elkarte.net/community/index.php?topic=1399.0
 bugs: https://github.com/Spuds/Elk-SimplePortal/issues
 author: Simple Portal Team
 thumbnail:
-download: https://github.com/Spuds/Elk-SimplePortal/archive/master.zip
+download: https://github.com/Spuds/Elk-SimplePortal/releases/tag/0.0.1
 images:
 ---
 
 ## Introduction:
-SimplePortal is one of several portal mods for Simple Machines Forums (SMF). Although always developing, SimplePortal is produced with the user in mind first. User feedback is the number one method of growth for SimplePortal, and our users are always finding ways for Simpleportal to grow. SimplePortal stays competative with other portal software by adding numerous user-requested features such as articles, block types and the ability to completely customize the portal page.
+This is a port of the popular SimplePortal portal to the ElkArte platform.  The fork is based on SP 2.4 and attempts to retain all functionality that version entails.
+
+SimplePortal is always developing, and is produced with the user in mind first. User feedback is the number one method of growth for SimplePortal, and our users are always finding ways for Simpleportal to grow. SimplePortal stays competitive with other portal software by adding numerous user-requested features such as articles, block types and the ability to completely customize the portal page.
 
 All this and SimplePortal has remained Simple! SimplePortal is built for simplicity and ease of use; ensuring the average forum administrator can install SimplePortal, configure a few settings, and show off the brand new portal to the users in minutes. Confusing menus, undesired pre-loaded blocks and settings that cannot be found are all avoided as much as possible. Because when it comes down to it, SimplePortal is YOUR portal, and should reflect your taste as much as possible.
 
