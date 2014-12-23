@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Topic Prefixes"
-category: security
+category: feature
 date: 2014-11-11
 comments: false
 short: "Introduces the ability to add topic prefixes"
