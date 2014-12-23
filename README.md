@@ -101,7 +101,7 @@ Two helper templates are provided, one is the generic addon installation instruc
 {% include install_std.MD %}  
 ```
 For the license template use the following with a param of  
-* BSD, BSD 2, BSD 3, MPL 1.1, MPL 2.0, MIT, Apache 2.0, I like fish fingers and custard., GPL 2, GPL 3, GNU 2, GNU 3, LGPL, LGPL 3 If you use a different license
+* BSD, BSD 2, BSD 3, MPL 1.1, MPL 2.0, MIT, Apache 2.0, WTF, GPL 2, GPL 3, GNU 2, GNU 3, LGPL, LGPL 3 If you use a different license
 add your own block or make a PR to add it to license.MD in the _includes directory
 ```
 ### License:  
