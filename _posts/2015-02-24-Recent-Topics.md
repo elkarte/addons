@@ -6,7 +6,7 @@ date: 2015-02-24
 comments: false
 short: "Replaces the Recent Posts block in the board index with a Recent Topics"
 license: BSD
-version: 0.0.3
+version: 0.0.4
 allhooks: yes
 elkversion: 1.0
 support: http://www.elkarte.net/community/index.php?topic=2033.0
