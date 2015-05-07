@@ -4,7 +4,7 @@ title: "Topic Author"
 category: enhancement
 date: 2014-11-20
 comments: false
-short: "Display social links in the first post of a topic"
+short: "Displays small icon next to topic author username"
 license: "MPL 1.1"
 version: 1.0.0
 allhooks: yes
