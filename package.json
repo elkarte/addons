@@ -1,16 +1,33 @@
 ---
 ---
-[
-  {% for post in site.posts %}
-    {
-      "title"       : "{{ post.title | strip_html }}",
-      "category"    : "{{ post.category }}",
-      "short"       : "{{ post.short | strip_html }}",
-      "url"         : "{{ site:baseurl }}{{ post.url }}",
-      "download"    : "{{ post.download }}",
-      "author"      : "{{ post.author | strip_html }}",
-      "version"     : "{{ post.version }}",
-      "date"        : "{{ post.date | strip_html }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-]
+{
+    {% for category in site.categories %}
+    "{{ category[0] }}" : [
+        {% for posts in category %}
+            {% for post in posts %}
+                {% if post.title %}
+        {
+            "title"       : "{{ post.title | strip_html }}",
+            "category"    : "{{ post.category }}",
+            "short"       : "{{ post.short | strip_html }}",
+            "author"      : "{{ post.author | strip_html }}",
+            "version"     : "{{ post.version }}",
+            "date"        : "{{ post.date | strip_html }}",
+            "allhooks"    : "{{ post.allhooks }}",
+            "elkversion"  : "{{ post.elkversion }}",
+            "license"     : {% if post.license %}"{{ post.license }}"{% else %}""{% endif %},
+            "server"      : [
+                {
+                    "url"         : "{{ site:baseurl }}{{ post.url }}",
+                    "download"    : "{{ post.download }}",
+                    "bugs"        : {% if post.bugs %}"{{ post.bugs }}"{% else %}""{% endif %},
+                    "support"     : {% if post.support %}"{{ post.support }}"{% else %}""{% endif %}
+                }
+            ]
+        } {% unless forloop.last %},{% endunless %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    ] {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+}
