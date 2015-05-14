@@ -11,7 +11,7 @@ allhooks: yes
 elkversion: 1.0
 support: http://www.elkarte.net/community/index.php?topic=1394.0
 bugs: https://github.com/Spuds/Elk-Solved-Topics/issues
-author: [SiNaN]
+author: "[SiNaN]"
 thumbnail:
 download: https://github.com/Spuds/Elk-Solved-Topics/archive/master.zip
 images:

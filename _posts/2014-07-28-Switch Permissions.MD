@@ -11,7 +11,7 @@ allhooks: no
 elkversion: 1.0
 support: http://www.elkarte.net/community/index.php?topic=1790.0
 bugs:
-author: [SiNaN]
+author: "[SiNaN]"
 thumbnail: http://www.elkarte.net/community/index.php?action=dlattach;topic=1790.0;attach=1227;image
 download: http://www.elkarte.net/community/index.php?action=dlattach;topic=1790.0;attach=1216
 images:

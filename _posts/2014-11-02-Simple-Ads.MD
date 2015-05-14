@@ -11,7 +11,7 @@ allhooks: yes
 elkversion: 1.0
 support: http://www.elkarte.net/community/index.php?topic=2168.0
 bugs: https://github.com/Spuds/Elk-Simple-Ads/issues
-author: [SiNaN]
+author: "[SiNaN]"
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk-Simple-Ads/master/sample_images/sa_acp.jpg
 download: https://github.com/Spuds/Elk-Simple-Ads/archive/master.zip
 images:
