@@ -7,6 +7,7 @@
             {% for post in posts %}
                 {% if post.title %}
         {
+            "pkid"        : {% if post.pkid %}"{{ post.pkid }}"{% else %}""{% endif %},
             "title"       : "{{ post.title | strip_html }}",
             "category"    : "{{ post.category }}",
             "short"       : "{{ post.short | strip_html }}",
