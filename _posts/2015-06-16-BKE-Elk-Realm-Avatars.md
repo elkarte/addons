@@ -11,8 +11,9 @@ elkversion: 1.0
 support: http://www.webmastershaven.net/index.php?topic=582.0
 bugs: https://github.com/BurkeKnight-Enterprises/BKE-Elk-Realm-Avatars/issues
 author: BurkeKnight
-thumbnail: null
+thumbnail:
 download: https://github.com/BurkeKnight-Enterprises/BKE-Elk-Realm-Avatars/releases/download/BKE-Elk-Realm-Avatars_v2.0.0/BKE-Elk-Realm-Avatars_v2.0.0.zip
+images:
 ---
 
 Avatars from the MMORPG game The Realm Online.<br /><br />
