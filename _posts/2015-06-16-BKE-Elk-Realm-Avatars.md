@@ -9,7 +9,7 @@ license: BSD 3
 version: 2.0.0
 elkversion: 1.0
 support: http://www.webmastershaven.net/index.php?topic=582.0
-bugs: valid link or null
+bugs: https://github.com/BurkeKnight-Enterprises/BKE-Elk-Realm-Avatars/issues
 author: BurkeKnight
 thumbnail: null
 download: https://github.com/BurkeKnight-Enterprises/BKE-Elk-Realm-Avatars/releases/download/BKE-Elk-Realm-Avatars_v2.0.0/BKE-Elk-Realm-Avatars_v2.0.0.zip
