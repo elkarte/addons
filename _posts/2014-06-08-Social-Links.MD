@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Social Links"
+pkid: "spuds:SocialLinks"
 category: enhancement
 date: 2014-09-06
 comments: false
@@ -13,7 +14,7 @@ support: http://www.elkarte.net/community/index.php?topic=1784.0
 bugs: https://github.com/Spuds/Elk-Solved-Topics/issues
 author: spuds
 thumbnail:
-download: https://github.com/Spuds/Elk-Solved-Topics/archive/master.zip
+download: https://github.com/Spuds/Elk-Social-Links/archive/master.zip
 images:
 ---
 
