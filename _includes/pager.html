@@ -59,7 +59,7 @@
     </li>
     <li class="pages-indicator{{ indicator_first }} pages-indicator--offset-{{ relative_first }}"><span aria-hidden="true">...</span><span class="sr-only">Skipped pages indicator</span></li>
     {% else %}
-    <li class="page first current-page">
+    <li class="page first active">
         <span class="pagination-item"><span class="sr-only">current page</span><span aria-hidden="true">1</span></span>
     </li>
     {% endunless %}
@@ -68,7 +68,7 @@
         {% if count >= limitprev and count <= limitnext %}
             {% assign relative_to_current = paginator.page | minus: count | replace: '-', '' | divided_by: 1 %}
             {% unless count == totalpages %}
-            <li class="page offset-{{relative_to_current}}{% if count == paginator.page %} current-page{% endif %}">
+            <li class="page offset-{{relative_to_current}}{% if count == paginator.page %} active{% endif %}">
                 {% if count == paginator.page %}
                 <span class="pagination-item"><span class="sr-only">current page</span><span aria-hidden="true">{{ count }}</span></span>
                 {% else %}
@@ -80,12 +80,12 @@
     {% endfor %}
 
     {% unless paginator.page == totalpages %}
-    <li class="pages-indicator{{ indicator_last }} pages-indicator--offset-{{ relative_last }}"><span aria-hidden="true">...</span><span class="sr-only">Skipped pages indicator</span></li>
+    <li class="pages-indicator{{ indicator_last }} pages-indicator--offset-{{ relative_last }}"><span aria-hidden="true">...</span></li>
     <li class="page last">
         <a class="pagination-item" href="{{ site.baseurl}}/page{{ totalpages }}"><span class="sr-only">page </span>{{ totalpages }}</a>
     </li>
     {% else %}
-    <li class="page last current-page">
+    <li class="page last active">
         <span class="pagination-item"><span class="sr-only">current page</span><span aria-hidden="true">{{ totalpages }}</span></span>
     </li>
     {% endunless %}
