@@ -46,21 +46,21 @@
     {% if paginator.previous_page %}
     <li class="previous">
         {% if paginator.previous_page == 1 %}
-        <a class="pagination-item" href="{{ site.baseurl}}" rel="prev">previous<span class="sr-only"> page</span></a>
+        <a class="pagination-item" href="{{ site.baseurl}}" rel="prev">previous</a>
         {% else %}
-        <a class="pagination-item" href="{{ paginator.previous_page_path }}" rel="prev">previous<span class="sr-only"> page</span></a>
+        <a class="pagination-item" href="{{ paginator.previous_page_path }}" rel="prev">previous</a>
         {% endif %}
     </li>
     {% endif %}
 
     {% unless paginator.page == 1 %}
     <li class="page first">
-        <a class="pagination-item" href="{{ site.baseurl}}"><span class="sr-only">page </span>1</a>
+        <a class="pagination-item" href="{{ site.baseurl}}">1</a>
     </li>
-    <li class="pages-indicator{{ indicator_first }} pages-indicator--offset-{{ relative_first }}"><span aria-hidden="true">...</span><span class="sr-only">Skipped pages indicator</span></li>
+    <li class="pages-indicator{{ indicator_first }} pages-indicator--offset-{{ relative_first }}"><span aria-hidden="true">...</span></li>
     {% else %}
     <li class="page first active">
-        <span class="pagination-item"><span class="sr-only">current page</span><span aria-hidden="true">1</span></span>
+        <span class="pagination-item"><span aria-hidden="true">1</span></span>
     </li>
     {% endunless %}
 
@@ -70,9 +70,9 @@
             {% unless count == totalpages %}
             <li class="page offset-{{relative_to_current}}{% if count == paginator.page %} active{% endif %}">
                 {% if count == paginator.page %}
-                <span class="pagination-item"><span class="sr-only">current page</span><span aria-hidden="true">{{ count }}</span></span>
+                <span class="pagination-item"><span aria-hidden="true">{{ count }}</span></span>
                 {% else %}
-                <a class="pagination-item" href="{{ site.baseurl}}/page{{ count }}"><span class="sr-only">page </span>{{ count }}</a>
+                <a class="pagination-item" href="{{ site.baseurl}}/page{{ count }}">{{ count }}</a>
                 {% endif %}
             </li>
             {% endunless %}
@@ -82,17 +82,17 @@
     {% unless paginator.page == totalpages %}
     <li class="pages-indicator{{ indicator_last }} pages-indicator--offset-{{ relative_last }}"><span aria-hidden="true">...</span></li>
     <li class="page last">
-        <a class="pagination-item" href="{{ site.baseurl}}/page{{ totalpages }}"><span class="sr-only">page </span>{{ totalpages }}</a>
+        <a class="pagination-item" href="{{ site.baseurl}}/page{{ totalpages }}">{{ totalpages }}</a>
     </li>
     {% else %}
     <li class="page last active">
-        <span class="pagination-item"><span class="sr-only">current page</span><span aria-hidden="true">{{ totalpages }}</span></span>
+        <span class="pagination-item"><span aria-hidden="true">{{ totalpages }}</span></span>
     </li>
     {% endunless %}
 
     {% if paginator.next_page %}
     <li class="next">
-        <a class="pagination-item" href="{{ paginator.next_page_path }}" rel="next">next<span class="sr-only"> page</span></a>
+        <a class="pagination-item" href="{{ paginator.next_page_path }}" rel="next">next</a>
     </li>
     {% endif %}
 </ul>
