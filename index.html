@@ -73,46 +73,7 @@ layout: default
 </div>
 {% endfor %}
 
+
 <div class="text-center">
-	<ul class="pagination">
-		{% if paginator.previous_page %}
-		<li>
-			{% if paginator.previous_page == 1 %}
-			<a href="{{ site.baseurl}}/index.html" class="previous"><span aria-hidden="true"><i class="glyphicon glyphicon-arrow-left"></i></span> Previous</a>
-			{% else %}
-			<a href="{{ site.baseurl}}/page{{ paginator.previous_page }}"><span aria-hidden="true"><i class="glyphicon glyphicon-arrow-left"></i></span> Previous</a>
-			{% endif %}
-		</li>
-		{% endif %}
-
-		{% capture end %}{{ paginator.total_pages | minus: 3 }}{% endcapture %}
-		{% capture start %}{{ paginator.page }}{% endcapture %}
-
-		{% if start > '1' %}
-			{% capture start %}{{ paginator.page | minus: 1 }}{% endcapture %}
-		{% endif %}
-
-		{% if start > end %}
-			{% capture start %}{{ end }}{% endcapture %}
-		{% endif %}
-
-		{% for count in (start..paginator.total_pages) %}
-			{% if count == paginator.page %}
-		<li class="active"><a href="#"><em>{{ count }}</em></a></li>
-			{% elsif count == 1 %}
-		<li><a href="{{ site.baseurl}}/index.html">{{count}}</a></li>
-			{% else %}
-		<li><a href="{{ site.baseurl}}/page{{count}}">{{count}}</a></li>
-			{% endif %}
-			{% if forloop.index == 4 %}
-				{% break %}
-			{% endif %}
-		{% endfor %}
-
-		{% if paginator.next_page %}
-		<li>
-			<a href="{{ site.baseurl}}/page{{ paginator.next_page }}">Next <span aria-hidden="true"><i class="glyphicon glyphicon-arrow-right"></i></span></a>
-		</li>
-		{% endif %}
-	</ul>
+	{% include pager.html %}
 </div>
