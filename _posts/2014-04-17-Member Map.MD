@@ -14,7 +14,7 @@ support: http://www.elkarte.net/community/index.php?topic=1374.0
 bugs: https://github.com/Spuds/Elk-Google-Member-Map/issues
 author: spuds
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk-Google-Member-Map/master/sample_images/mm_add.jpg
-download: https://github.com/Spuds/Elk-Google-Member-Map/releases/tag/1.0.1
+download: https://github.com/Spuds/Elk-Google-Member-Map/releases/download/1.0.1/elk-Google.Member.Map.zip
 images:
   - Add: https://raw.githubusercontent.com/Spuds/Elk-Google-Member-Map/master/sample_images/mm_add.jpg
   - Map: https://raw.githubusercontent.com/Spuds/Elk-Google-Member-Map/master/sample_images/mm_map.jpg
