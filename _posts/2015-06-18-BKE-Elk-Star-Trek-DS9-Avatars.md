@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "BKE-Elk Star Trek DS9 Avatars"
-category: other
+pkid: "BurkeKnight:StarTrekDS9Avatars"
+category: avatar
 date: 2015-06-18
 comments: false
 short: "Star Trek Deep Space 9 Avatars"

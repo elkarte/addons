@@ -1,0 +1,78 @@
+---
+layout: default
+title: "Avatar Packs"
+current: avatar
+---
+
+{% for post in site.categories['avatar'] %}
+<div class="article">
+    <div class="well">
+		<div class="row">
+			<div class="col-md-1 hidden-xs">
+				{% capture cat %}{{ post.category | downcase }}{% endcapture %}
+				<span class="lead">{% include icon_cat.html %}</span>
+			</div>
+			<div class="col-md-8">
+				<h2>
+					<a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+				</h2>
+				<p>
+					<i class="glyphicon glyphicon-calendar" aria-hidden="true"></i>Last Update: {{ post.date | date: "%d %b %Y" }}
+				</p>
+				<div class="content">
+					<dl class="dl-horizontal">
+						<dt>Title</dt>
+						<dd>{{ post.title }}</dd>
+						<dt>Summary</dt>
+						<dd>{{ post.short }}<sup><a href="{{ site.baseurl}}{{ post.url }}"><i class="glyphicon glyphicon-plus-sign text-info"></i></a></sup></dd>
+						<dt>Requires</dt>
+						<dd>ElkArte {% if post.elkversion %}{{ post.elkversion }}{% else %}1.0{% endif %} (+)</dd>
+						<dt>Category</dt>
+						<dd>
+						{% include pretty_cat.html %}
+						{{ cat }}
+						</dd>
+						<dt>Author</dt>
+						<dd>{{ post.author }}</dd>
+						<dt>License</dt>
+						<dd>{{ post.license }} 
+						{% capture osi %}{{ post.license | upcase | truncate: 3, '' }}{% endcapture %}
+						{% if osi == 'BSD' or osi == 'MPL' or osi == 'GNU' or osi == 'MIT' or osi == 'APA' or osi == 'WTF' %}
+						<img class="img-circle" style="padding-bottom: 1px;" src="{{ site.baseurl }}/assets/images/osi-icon.png" title="Open Source License" alt="OSI">
+						{% endif %}
+						</dd>
+						<dt>Version</dt>
+						<dd>{{ post.version }}</dd>
+						{% if post.link %}
+						<dt>Link</dt>
+						<dd>{{ post.link }}</dd>
+						{% endif %}
+					</dl>
+				</div>
+			</div>
+			<div class="col-md-3 hidden-xs">
+				{% if post.thumbnail %}
+				<div class="thumbnail">
+					{% if post.thumbnail contains 'http://' or post.thumbnail contains 'https://' %}
+					<img class="img-rounded" src="{{ post.thumbnail }}" alt="thumbnail">
+					{% else %}
+					<img class="img-rounded" src="{{ site.baseurl }}{{ post.thumbnail }}" alt="thumbnail">
+					{% endif %}
+				</div>
+				{% else %}
+				<div class="media media-right">
+					<img class="img-rounded" src="{{ site.baseurl }}/assets/images/addons.png" alt="thumbnail">
+				</div>
+				{% endif %}
+				<a href="{{ post.download }}" class="btn btn-info btn-block"><i class="glyphicon glyphicon-save pull-left"></i> Download</a>
+				{% if post.support and post.support != '' %}
+				<a href="{{ post.support }}" class="btn btn-info btn-block"><i class="glyphicon glyphicon-bullhorn pull-left"></i> Support</a>
+				{% endif %}
+				{% if post.bugs and post.bugs != '' %}
+				<a href="{{ post.bugs }}" class="btn btn-info btn-block"><i class="glyphicon glyphicon-fire pull-left text-danger"></i> Issues</a>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</div>
+{% endfor %}

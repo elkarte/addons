@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "BKE-Elk Star Trek TNG Avatars"
-category: other
+pkid: "BurkeKnight:StarTrekTNGAvatars"
+category: avatar
 date: 2015-06-18
 comments: false
 short: "Star Trek The Next Generation Avatars"

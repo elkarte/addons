@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "BKE-Elk-Realm-Avatars"
-category: other
+pkid: "BurkeKnight:RealmAvatars"
+category: avatar
 date: 2015-06-18
 comments: false
 short: "Avatars from the MMORPG game The Realm Online"
