@@ -23,6 +23,7 @@ Don't want to learn YAML?, good neither did I and you don't have either, just fo
 ---  
 layout: post  
 title: "Title of addon"  
+pkid: "package id"  
 category: name  
 date: YYYY-MM-DD  
 comments: false  
@@ -55,9 +56,11 @@ Markdown text
 some point.
 * title: "Title of addon"  
 	* The name of the addon. This is used in the template titles and listings.
+* pkid: "Package ID"
+	* The package id as defined in the addons package-info.xml file <id> tag.
 * category: name  
 	* This categorises the type of the addon, used to help group similar items for navigation. Currently this must be one of the following.
-	* admin, utility, feature, enhancement, smiley, bbc, security, other
+	* admin, utility, feature, enhancement, smiley, bbc, security, avatar, other
 * date: YYYY-MM-DD  
 	* 2014-12-20 for example. This date is used to determine the order addons are shown. If you make an important code update, just change the date and it will float to the top.
 * comments: false  
