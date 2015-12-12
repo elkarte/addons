@@ -9,15 +9,20 @@
 	<a href="#" class="list-group-item disabled">
 		Categories
 	</a>
-	{% assign sortcat = (site.categories | sort: 0) %}
+	{% capture categories %}
+		{% for category in site.categories %}
+			{{ category[0] }}
+		{% endfor %}
+	{% endcapture %}
+	{% assign sortcat = categories | split:' ' | sort %}
 	{% for categories in sortcat %}
-		{% assign cat = categories[0] %}
-		{% if page.current and page.current == categories[0] %}
-	<a class="list-group-item active" href="{{ site.baseurl}}/categories/{{ categories[0] }}.html">
+		{% assign cat = categories %}
+		{% if page.current and page.current == categories %}
+	<a class="list-group-item active" href="{{ site.baseurl}}/categories/{{ categories }}.html">
 		<i class="glyphicon glyphicon-hand-right" aria-hidden="true"></i> {% include pretty_cat.html %} {{ cat }}
 	</a>
 		{% else %}
-	<a class="list-group-item" href="{{ site.baseurl}}/categories/{{ categories[0] }}.html">
+	<a class="list-group-item" href="{{ site.baseurl}}/categories/{{ categories }}.html">
 		{% include icon_cat.html %}{% include pretty_cat.html %} {{ cat }}
 	</a>
 		{% endif %}
