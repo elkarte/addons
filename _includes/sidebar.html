@@ -9,7 +9,8 @@
 	<a href="#" class="list-group-item disabled">
 		Categories
 	</a>
-	{% for categories in site.categories %}
+	{% assign sortcat = site.categories | sort:"name"  %}
+	{% for categories in sortcat %}
 		{% assign cat = categories[0] %}
 		{% if page.current and page.current == categories[0] %}
 	<a class="list-group-item active" href="{{ site.baseurl}}/categories/{{ categories[0] }}.html">
