@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "BKE-Elk Star Trek TOS Avatars"
-category: other
+pkid: "BurkeKnight:StarTrekTOSAvatars"
+category: avatar
 date: 2015-06-18
 comments: false
 short: "Star Trek The Original Series Avatars"

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "BKE-Elk Men of Star Trek Avatars"
-category: other
+pkid: "BurkeKnight:StarTrekMenAvatars"
+category: avatar
 date: 2015-06-18
 comments: false
 short: "Men of Star Trek Avatars"

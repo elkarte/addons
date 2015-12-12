@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "BKE-Elk Women of Star Trek Avatars"
-category: other
+pkid: "BurkeKnight:StarTrekWomenAvatars"
+category: avatar
 date: 2015-06-18
 comments: false
 short: "Star Trek Voyager Avatars"
