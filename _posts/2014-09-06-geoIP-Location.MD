@@ -1,19 +1,20 @@
 ---
 layout: post
 title: "geoIP Location"
+pkid: "Spuds:geoipMod"
 category: feature
-date: 2014-09-06
+date: 2015-12-14
 comments: false
 short: "Adds an on-line member map which will shows a map pin for each IP currently on your forum"
 license: MPL 1.1
-version: 1.0.0
+version: 1.1.0
 allhooks: no
 elkversion: 1.0
 support: http://www.elkarte.net/community/index.php?topic=1812.0
 bugs: https://github.com/Spuds/Elk-GeoIP/issues
 author: spuds
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk-GeoIP/master/sample_images/geoip_thumb.jpg
-download: https://github.com/Spuds/Elk-GeoIP/archive/master.zip
+download: https://github.com/Spuds/Elk-GeoIP/releases/download/V1.1/elk_geoIP_1.1.zip
 images:
   - Map: https://raw.githubusercontent.com/Spuds/Elk-GeoIP/master/sample_images/geoip_map.jpg
   - Map Settings: https://raw.githubusercontent.com/Spuds/Elk-GeoIP/master/sample_images/geoip_map_settings.jpg
@@ -22,7 +23,7 @@ images:
 ---
 
 ## Introduction:
-This modification adds the ability to use the latitude & longitude of a member given their IP address. This is commonly referred to as geolocation. The mod makes use of the geoip capabilities in Nginx or Apache web servers. You **must** have this capability enabled in your web server and they **must** make the following enviroment variables available to PHP ('GEOIP_LATITUDE', 'GEOIP_LONGITUDE' 'GEOIP_CITY_COUNTRY_NAME', 'GEOIP_CITY', 'GEOIP_CITY_COUNTRY_CODE')
+This modification adds the ability to use the latitude & longitude of a member given their IP address. This is commonly referred to as geolocation. The mod makes use of the geoip capabilities in Nginx or Apache web servers. You **must** have this capability enabled in your web server and they **must** make the following enviroment variables available to PHP ('GEOIP_LATITUDE', 'GEOIP_LONGITUDE' 'GEOIP_CITY_COUNTRY_NAME', 'GEOIP_CITY', 'GEOIP_REGION', 'GEOIP_CITY_COUNTRY_CODE')
 
 *A note on accuracy*: Maxmind shows that this database (which is updated on a monthly basis) is over 99.5% accurate on a country level making it a viable source for registration blocking.
 
