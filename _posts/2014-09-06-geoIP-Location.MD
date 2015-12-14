@@ -7,7 +7,7 @@ date: 2015-12-14
 comments: false
 short: "Adds an on-line member map which will shows a map pin for each IP currently on your forum"
 license: MPL 1.1
-version: 1.0.0
+version: 1.1.0
 allhooks: no
 elkversion: 1.0
 support: http://www.elkarte.net/community/index.php?topic=1812.0
