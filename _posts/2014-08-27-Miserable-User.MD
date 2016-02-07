@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Miserable User"
-category: feature
+category: admin
 date: 2014-09-06
 comments: false
 short: "Targets problem users and enables various site deterrents to disrupt their visit"
