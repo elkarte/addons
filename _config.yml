@@ -1,4 +1,4 @@
-# Jekyll configuration
+# ElkArte Addon site Jekyll configuration
 
 # Name of your site (this will show up at the top of your page and in the RSS feed)
 name: ElkArte Addons
@@ -26,12 +26,10 @@ comments: false
 permalink: /:year/:month/:title
 paginate: 5
 
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables"]
-
+highlighter: rouge
+markdown: kramdown
 kramdown:
   input: GFM
+  hard_wrap: false
 
 exclude: [vendor]
