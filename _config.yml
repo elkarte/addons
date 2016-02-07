@@ -1,4 +1,4 @@
-# Jekyll configuration
+# ElkArte Addon site Jekyll configuration
 
 # Name of your site (this will show up at the top of your page and in the RSS feed)
 name: ElkArte Addons
@@ -17,21 +17,23 @@ github: 'elkarte/addons'
 # Set this to your UA-# value, or '' to disable the block completely
 gaaccount: ''
 
+# Gems
+gems: [jekyll-paginate]
+
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
 disqus: ''
 comments: false
 
-permalink: /:year/:month/:title
+# Our permalinks will be addon category / addon name.html
+permalink: /:categories/:title.html
 paginate: 5
 
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables"]
-
+highlighter: rouge
+markdown: kramdown
 kramdown:
   input: GFM
+  hard_wrap: false
 
 exclude: [vendor]
