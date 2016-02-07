@@ -2,9 +2,7 @@
 layout: default
 ---
 
-{% assign sorted_posts = paginator.posts | sort:"update" %}
-
-{% for post in sorted_posts %}
+{% for post in paginator.posts %}
 <div class="panel well">
 	<div class="row">
 		<div class="col-md-1 hidden-xs">
