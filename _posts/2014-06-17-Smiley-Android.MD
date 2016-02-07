@@ -12,10 +12,10 @@ elkversion: 1.0
 support: http://www.elkarte.net/community/index.php?topic=1581.0
 bugs: https://github.com/Spuds/Elk-Droid-Smiley/issues
 author: spuds
-thumbnail: /assets/images/Smiley-Android/smiley_android.png
+thumbnail: /assets/images/Smileys/Smiley-Android/smiley_android.png
 download: https://github.com/Spuds/Elk-Droid-Smiley/archive/master.zip
 images:
-  - Example: /assets/images/Smiley-Android/smiley_android.png
+  - Example: /assets/images/Smileys/Smiley-Android/smiley_android.png
 ---
 
 ## Introduction:
