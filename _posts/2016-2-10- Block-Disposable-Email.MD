@@ -16,7 +16,7 @@ author: spuds
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk_Block_Disposable_Email/master/sample_images/dea.jpg
 download: https://github.com/Spuds/Elk_Block_Disposable_Email/archive/master.zip
 images:
-  - dea: https://raw.githubusercontent.com/Spuds/Elk_Block_Disposable_Email/master/sample_images/dea.png
+  - dea: https://raw.githubusercontent.com/Spuds/Elk_Block_Disposable_Email/master/sample_images/dea.jpg
 ---
 
 ## Introduction:
