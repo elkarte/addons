@@ -9,7 +9,7 @@ This ElkArte Addon is subject to the terms of the The BSD 2-Clause License (the 
 This ElkArte Addon is subject to the terms of the Mozilla Public License version 1.1 (the "License"). You can obtain a copy of the License at https://www.mozilla.org/MPL/1.1/
 	{% when 'MPL' or 'MPL20' %}
 This ElkArte Addon is subject to the terms of the Mozilla Public License version 2 (the "License"). You can obtain a copy of the License at https://www.mozilla.org/MPL/2.0/
-	{% when 'GNU20' or 'GPL20' %}
+	{% when 'GNU20' or 'GPL20' or 'GPL2' %}
 This ElkArte Addon is subject to the terms of the GNU General Public License, version 2 (the "License"). You can obtain a copy of the License at http://opensource.org/licenses/GPL-2.0
 	{% when 'GNU3' or 'GPL3' or 'GPL' %}
 This ElkArte Addon is subject to the terms of the GNU General Public License, version 3 (the "License"). You can obtain a copy of the License at http://opensource.org/licenses/GPL-3.0
