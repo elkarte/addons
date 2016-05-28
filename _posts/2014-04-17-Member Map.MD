@@ -7,14 +7,14 @@ date: 2015-09-03
 comments: false
 short: "Adds a member map where members can pin their location"
 license: MPL 1.1
-version: 1.0.1
+version: 1.0.2
 allhooks: yes
 elkversion: 1.0
 support: http://www.elkarte.net/community/index.php?topic=1374.0
 bugs: https://github.com/Spuds/Elk-Google-Member-Map/issues
 author: spuds
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk-Google-Member-Map/master/sample_images/mm_add.jpg
-download: https://github.com/Spuds/Elk-Google-Member-Map/releases/download/1.0.1/elk-Google.Member.Map.zip
+download: https://github.com/Spuds/Elk-Google-Member-Map/releases/download/1.0.2/elk-Google.Member.Map.zip
 images:
   - Add: https://raw.githubusercontent.com/Spuds/Elk-Google-Member-Map/master/sample_images/mm_add.jpg
   - Map: https://raw.githubusercontent.com/Spuds/Elk-Google-Member-Map/master/sample_images/mm_map.jpg
