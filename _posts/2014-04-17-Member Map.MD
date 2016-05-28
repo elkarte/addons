@@ -3,7 +3,7 @@ layout: post
 pkid: "Spuds:gmmMod"
 title: "Google Member Map"
 category: feature
-date: 2015-09-03
+date: 2016-05-27
 comments: false
 short: "Adds a member map where members can pin their location"
 license: MPL 1.1
