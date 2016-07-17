@@ -33,7 +33,7 @@ This is a tool for configuring the main menu within Elkarte, allowing custom but
 - Dynamic by design -- any menu button can change its text without a problem -- no special code required.
 
 ## Known issues:
--  Grandchild butons cannot be added using 'before'  or 'after'; not sure how to fix this
+-  Grandchild buttons cannot be added using 'before'  or 'after'; not sure how to fix this
 
 ## Installation:
 {% include install_std.MD %}
