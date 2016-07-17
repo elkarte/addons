@@ -28,6 +28,7 @@ images:
 This is a direct port of my SMF mod to Elkarte.
 
 This is a tool for configuring the main menu within Elkarte, allowing custom buttons to be added at will, complete with children and grandchildren menus (so, a main menu item, a dropdown and a follow-on dropdown).
+
 - Setup this mod at Administration Center » Configuration » Ultimate Menu.
 - Should "just work" with all other mods that add their own buttons, such as portals.
 - Dynamic by design -- any menu button can change its text without a problem -- no special code required.
