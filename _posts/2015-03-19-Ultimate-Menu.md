@@ -27,18 +27,13 @@ images:
 ## Introduction:
 This is a direct port of my SMF mod to Elkarte.
 
-This is a tool for configuring the main menu within Elkarte, allowing custom buttons to be added at will, complete with children and grandchildren menus (so, a main menu item, a dropdown and a follow-on dropdown)
+This is a tool for configuring the main menu within Elkarte, allowing custom buttons to be added at will, complete with children and grandchildren menus (so, a main menu item, a dropdown and a follow-on dropdown).
+- Setup this mod at Administration Center » Configuration » Ultimate Menu.
+- Should "just work" with all other mods that add their own buttons, such as portals.
+- Dynamic by design -- any menu button can change its text without a problem -- no special code required.
 
 ## Known issues:
 -  Grandchild butons cannot be added using 'before'  or 'after'; not sure how to fix this
-
-###Future plans:
--  Complete rewrite using objects
--  Follow PSR-2 and PSR-4
--  Use generators (PHP 5.5+)
--  Use closures (PHP 5.3+)
--  Use late statiic bindigs (PHP 5.3+)
--  any suggestion that would come up in the topic
 
 ## Installation:
 {% include install_std.MD %}
