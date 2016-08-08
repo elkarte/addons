@@ -6,14 +6,14 @@ date: 2016-05-01
 comments: false
 short: "Add custom buttons to the main menu"
 license: MIT
-version: v1.0
+version: v1.1.1
 allhooks: yes
 elkversion: 1.0.4
 support: http://www.elkarte.net/community/index.php?topic=2497.0
 bugs: https://github.com/live627/elk-um/issues
 author: live627
 thumbnail: https://raw.githubusercontent.com/live627/elk-um/master/FireShot%20Screen%20Capture%20%23171%20-%20%27Add%20Button%27%20-%20localhost_Elkarte_index_php_action%3Dadmin%3Barea%3Dumen%3Bsa%3Daddbutton.png
-download: https://github.com/live627/elk-um/releases/download/v1.0/ultimate_menu.zip
+download: https://github.com/live627/elk-um/releases/download/v1.1.1/ultimate_menu.zip
 images:
   - ACP: https://raw.githubusercontent.com/live627/elk-um/master/FireShot%20Screen%20Capture%20%23171%20-%20%27Add%20Button%27%20-%20localhost_Elkarte_index_php_action%3Dadmin%3Barea%3Dumen%3Bsa%3Daddbutton.png
 ---
