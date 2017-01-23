@@ -10,7 +10,7 @@ license: Closed Source
 version: 4.0
 allhooks: yes
 elkversion: 1.0
-support:http://www.elkarte.net/community/index.php?topic=4212
+support: http://www.elkarte.net/community/index.php?topic=4212
 bugs: http://www.elkarte.net/community/index.php?topic=4212
 author: vbgamer45
 thumbnail:
