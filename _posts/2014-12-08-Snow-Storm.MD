@@ -13,11 +13,11 @@ elkversion: 1.0.0
 support: http://www.elkarte.net/community/index.php?topic=2262.0
 bugs: https://github.com/Spuds/Elk_Snow/issues
 author: spuds
-thumbnail: https://raw.githubusercontent.com/Spuds/Elk_FancyBox/master/sample_images/snow1.jpg
+thumbnail: https://raw.githubusercontent.com/Spuds/Elk_Snow/master/sample_images/snow1.jpg
 download: https://github.com/Spuds/Elk_Snow/releases/download/v1.0.0/elk_noFrillsSnow_1_0_0.zip
 images:
-  - Settings: https://raw.githubusercontent.com/Spuds/Elk_FancyBox/master/sample_images/settings.jpg
-  - Example: https://raw.githubusercontent.com/Spuds/Elk_FancyBox/master/sample_images/snow1.jpg
+  - Settings: https://raw.githubusercontent.com/Spuds/Elk_Snow/master/sample_images/settings.jpg
+  - Example: https://raw.githubusercontent.com/Spuds/Elk_Snow/master/sample_images/snow1.jpg
 ---
 
 ## Introduction
