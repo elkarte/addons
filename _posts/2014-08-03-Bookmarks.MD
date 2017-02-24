@@ -13,9 +13,11 @@ elkversion: 1.0
 support: http://www.elkarte.net/community/index.php?topic=1811.0
 bugs: https://github.com/Spuds/Elk-Bookmarks/issues
 author: Aaron
-thumbnail:
-download: https://github.com/Spuds/Elk-Bookmarks/archive/master.zip
+thumbnail: https://raw.githubusercontent.com/Spuds/Elk-Bookmarks/master/sample_images/bookmarks.jpg
+download: https://github.com/Spuds/Elk-Bookmarks/releases/download/v2.5.0/elk_bookmarks.zip
 images:
+  - Settings: https://raw.githubusercontent.com/Spuds/Elk-Bookmarks/master/sample_images/one.jpg
+  - Example: https://raw.githubusercontent.com/Spuds/Elk-Bookmarks/master/sample_images/bookmarks.jpg
 ---
 
 ## Introduction:
