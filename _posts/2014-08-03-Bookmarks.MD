@@ -1,12 +1,13 @@
 ---
 layout: post
+pkid: "aaronvg:bookmarks"
 title: "Bookmarks"
 category: feature
 date: 2014-11-02
 comments: false
 short: "Allows your members to bookmark topics so they can find them easily in the future"
 license: BSD
-version: 1.0.0
+version: 2.5.0
 allhooks: yes
 elkversion: 1.0
 support: http://www.elkarte.net/community/index.php?topic=1811.0
