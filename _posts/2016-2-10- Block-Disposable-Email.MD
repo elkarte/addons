@@ -5,7 +5,7 @@ pkid: "spuds:dea"
 category: admin
 date: 2016-2-10
 comments: false
-short: "Prevents users from changing to or registering with a disposable email address"
+short: "Prevents users from changing to, or registering with, a disposable email address"
 license: MPL
 version: 1.0.0
 allhooks: yes
@@ -14,7 +14,7 @@ support: https://github.com/Spuds/Elk_Block_Disposable_Email/issues
 bugs: https://github.com/Spuds/Elk_Block_Disposable_Email/issues
 author: spuds
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk_Block_Disposable_Email/master/sample_images/dea.jpg
-download: https://github.com/Spuds/Elk_Block_Disposable_Email/archive/master.zip
+download: https://github.com/Spuds/Elk_Block_Disposable_Email/releases/download/v1.0.0/elk_dea_check.zip
 images:
   - dea: https://raw.githubusercontent.com/Spuds/Elk_Block_Disposable_Email/master/sample_images/dea.jpg
 ---
