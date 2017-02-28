@@ -15,8 +15,8 @@ author: ant59
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk_reCAPTCHA/master/sample-images/verification.png
 download: https://github.com/Spuds/Elk_reCAPTCHA/releases/download/v1.0.0/elk-recaptcha.zip
 images:
-  - https://raw.githubusercontent.com/Spuds/Elk_reCAPTCHA/master/sample-images/settings.png
-  - https://raw.githubusercontent.com/Spuds/Elk_reCAPTCHA/master/sample-images/verification.png
+  - Settings: https://raw.githubusercontent.com/Spuds/Elk_reCAPTCHA/master/sample-images/settings.png
+  - Screen : https://raw.githubusercontent.com/Spuds/Elk_reCAPTCHA/master/sample-images/verification.png
 ---
 
 ## Introduction:
