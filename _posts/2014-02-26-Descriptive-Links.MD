@@ -2,18 +2,18 @@
 layout: post
 title: "Descriptive Links"
 category: enhancement
-date: 2014-09-28
+date: 2017-04-25
 comments: false
 short: "This will give URLs posted in your topics an automatic title"
 license: MPL 1.1
-version: 1.0.0
+version: 1.0.1
 allhooks: no
 elkversion: 1.0
 support: http://www.elkarte.net/community/index.php?topic=1370.0
 bugs: https://github.com/Spuds/Elk-Descriptive-Links/issues
 author: spuds
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk-Descriptive-Links/master/sample_images/dlinks_xmp.jpg
-download: https://github.com/Spuds/Elk-Descriptive-Links/archive/master.zip
+download: https://github.com/Spuds/Elk-Descriptive-Links/releases/download/v1.0.1/elk_descriptive.links_v101.zip
 images:
   - ACP: https://raw.githubusercontent.com/Spuds/Elk-Descriptive-Links/master/sample_images/dlinks_acp.jpg
   - Example: https://raw.githubusercontent.com/Spuds/Elk-Descriptive-Links/master/sample_images/dlinks_xmp.jpg
