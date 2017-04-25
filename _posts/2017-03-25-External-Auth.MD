@@ -1,4 +1,4 @@
-+---
+---
 layout: post
 pkid: "Spuds:ExternalAuth"
 title: "External Authenitcation with Social Media Sites"
