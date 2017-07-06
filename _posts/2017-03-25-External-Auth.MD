@@ -7,14 +7,14 @@ date: 2017-03-25
 comments: false
 short: "Allows your users to connect with one click to your ElkArte Forum using their social network accounts."
 license: closed
-version: 1.0.0
+version: 1.0.1
 allhooks: yes
 elkversion: 1.0
 support: http://www.elkarte.net/community/index.php?topic=4370
 bugs: https://github.com/Spuds/Elk_Social_Login/issues
 author: spuds
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk_Social_Login/master/sample_images/sample3.png
-download: https://github.com/Spuds/Elk_Social_Login/releases/download/1.0.0/elk_external_auth.zip
+download: https://github.com/Spuds/Elk_Social_Login/releases/download/1.0.1/elk_external_auth.zip
 images:
   - Admin: https://raw.githubusercontent.com/Spuds/Elk_Social_Login/master/sample_images/sample1.png
   - Profile: https://raw.githubusercontent.com/Spuds/Elk_Social_Login/master/sample_images/sample2.png
