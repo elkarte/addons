@@ -2,7 +2,7 @@
 layout: post
 title: "reCAPTCHA"
 category: security
-date: 2017-02-27
+date: 2017-08-27
 comments: false
 short: "Adds a Google reCAPTCHA to your site"
 license: BSD
