@@ -6,14 +6,14 @@ date: 2017-02-27
 comments: false
 short: "Adds a Google reCAPTCHA to your site"
 license: BSD
-version: 1.0
+version: 1.0.1
 allhooks: yes
 elkversion: 1.0
 support:
 bugs: https://github.com/Spuds/Elk_reCAPTCHA/issues
 author: ant59
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk_reCAPTCHA/master/sample-images/verification.png
-download: https://github.com/Spuds/Elk_reCAPTCHA/releases/download/v1.0.0/elk-recaptcha.zip
+download: https://github.com/Spuds/Elk_reCAPTCHA/releases/download/v1.0.1/elk-recaptcha_101.zip
 images:
   - Settings: https://raw.githubusercontent.com/Spuds/Elk_reCAPTCHA/master/sample-images/settings.png
   - Screen : https://raw.githubusercontent.com/Spuds/Elk_reCAPTCHA/master/sample-images/verification.png
