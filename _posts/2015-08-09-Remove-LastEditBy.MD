@@ -7,14 +7,14 @@ date: 2015-08-09
 comments: false
 short: "Allows users (with permission) to remove the Last edit by text on a post"
 license: CC BY-SA 3.0
-version: 1.0.0
+version: 1.0.1
 allhooks: yes
-elkversion: 1.0.0
+elkversion: 1.0-1.1
 support: http://www.elkarte.net/community/index.php?topic=2659
 thumbnail:
-bugs: https://github.com/Spuds/Elk_FancyBox/issues
+bugs: https://github.com/Spuds/Elk_Remove_Edit_By/issues
 author: Yoshi2889
-download: https://github.com/Spuds/Elk_Remove_Edit_By/releases/download/V1.0.0/elk_removeLEB.zip
+download: https://github.com/Spuds/Elk_Remove_Edit_By/releases/download/V1.0.1/elk_removeLEB_101.zip
 ---
 
 ## Introduction:
