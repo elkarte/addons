@@ -6,9 +6,9 @@ date: 2015-04-01
 comments: false
 short: "New spoiler style"
 license: MIT
-version: 0.0.1
+version: 0.2.0
 allhooks: no
-elkversion: 1.0
+elkversion: 1.0-1.1
 support: http://www.elkarte.net/community/index.php?topic=2589.0
 bugs: https://bitbucket.org/interlab/elk-spoiler-modern/issues
 author: inter
