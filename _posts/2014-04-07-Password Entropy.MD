@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Password Entropy"
+pkid: "Spuds:PWEntropy"
 category: security
 date: 2014-11-10
 comments: false
@@ -8,12 +9,12 @@ short: "Checks the real strength of an entered password"
 license: MPL 1.1
 version: 1.0.0
 allhooks: yes
-elkversion: 1.0
+elkversion: 1.0-1.1
 support: http://www.elkarte.net/community/index.php?topic=1371.0
 bugs: https://github.com/Spuds/Elk_Password_Entropy/issues
 author: spuds
 thumbnail:  https://raw.githubusercontent.com/Spuds/Elk_Password_Entropy/master/sample_images/strong.png
-download: https://github.com/Spuds/Elk_Password_Entropy/archive/master.zip
+download: https://github.com/Spuds/Elk_Password_Entropy/releases/download/v1.0.1/elk_password_entropy.zip
 images:
   - ACP: https://raw.githubusercontent.com/Spuds/Elk_Password_Entropy/master/sample_images/settings.jpg
   - Strong: https://raw.githubusercontent.com/Spuds/Elk_Password_Entropy/master/sample_images/strong.png

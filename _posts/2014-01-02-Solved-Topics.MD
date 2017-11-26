@@ -2,19 +2,19 @@
 layout: post
 title: "Solve Topics"
 category: feature
-date: 2014-09-06
+date: 2017-09-06
 pkid: ElkArte:Topic_Solved
 comments: false
 short: "Allow marking a topic solved or unsolved"
 license: BSD
-version: 1.1.1
+version: 1.0.1
 allhooks: yes
-elkversion: 1.0
+elkversion: 1.0-1.1
 support: http://www.elkarte.net/community/index.php?topic=1394.0
 bugs: https://github.com/Spuds/Elk-Solved-Topics/issues
 author: "[SiNaN]"
 thumbnail:
-download: https://github.com/Spuds/Elk-Solved-Topics/releases/download/1.1.1/elk_solved_topic.zip
+download: https://github.com/Spuds/Elk-Solved-Topics/releases/download/1.0.1/elk_solved_topic.zip
 images:
 ---
 

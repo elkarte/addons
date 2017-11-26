@@ -3,18 +3,18 @@ layout: post
 title: "geoIP Location"
 pkid: "Spuds:geoipMod"
 category: feature
-date: 2017-03-14
+date: 2017-11-26
 comments: false
 short: "Adds an on-line member map which will shows a map pin for each IP currently on your forum"
 license: MPL 1.1
-version: 1.3.0
+version: 1.4.0
 allhooks: no
-elkversion: 1.0.8
+elkversion: 1.0.8-1.1
 support: http://www.elkarte.net/community/index.php?topic=1812.0
 bugs: https://github.com/Spuds/Elk-GeoIP/issues
 author: spuds
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk-GeoIP/master/sample_images/geoip_thumb.jpg
-download: https://github.com/Spuds/Elk-GeoIP/releases/download/V1.3/elk_geoIP_13.zip
+download: https://github.com/Spuds/Elk-GeoIP/releases/download/V1.4/elk_geoIP.zip
 images:
   - Map: https://raw.githubusercontent.com/Spuds/Elk-GeoIP/master/sample_images/geoip_map.jpg
   - Map Settings: https://raw.githubusercontent.com/Spuds/Elk-GeoIP/master/sample_images/geoip_map_settings.jpg

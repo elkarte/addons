@@ -3,18 +3,18 @@ layout: post
 pkid: "Spuds:gmmMod"
 title: "Google Member Map"
 category: feature
-date: 2017-03-10
+date: 2017-04-25
 comments: false
 short: "Adds a member map where members can pin their location"
 license: MPL 1.1
-version: 1.0.3
+version: 1.0.4
 allhooks: yes
-elkversion: 1.0
+elkversion: 1.0-1.1
 support: http://www.elkarte.net/community/index.php?topic=1374.0
 bugs: https://github.com/Spuds/Elk-Google-Member-Map/issues
 author: spuds
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk-Google-Member-Map/master/sample_images/mm_add.jpg
-download: https://github.com/Spuds/Elk-Google-Member-Map/releases/download/1.0.3/elk-Google.Member.Map_103.zip
+download: https://github.com/Spuds/Elk-Google-Member-Map/releases/download/1.0.4/elk-Google.Member.Map.zip
 images:
   - Add: https://raw.githubusercontent.com/Spuds/Elk-Google-Member-Map/master/sample_images/mm_add.jpg
   - Map: https://raw.githubusercontent.com/Spuds/Elk-Google-Member-Map/master/sample_images/mm_map.jpg
