@@ -10,7 +10,7 @@ license: MPL 1.1
 version: 0.1
 allhooks: yes
 elkversion: 1.0-1.1
-support:https://github.com/Spuds/Elk-Limit-Guest-View
+support: https://github.com/Spuds/Elk-Limit-Guest-View
 bugs: https://github.com/Spuds/Elk-Limit-Guest-View/issues
 author: spuds
 thumbnail:
