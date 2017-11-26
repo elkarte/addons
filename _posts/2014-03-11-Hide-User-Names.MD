@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hide User Names"
+pkid: "Spuds:Hideusernames"
 category: security
 date: 2014-09-06
 comments: false
@@ -8,7 +9,7 @@ short: "Hides usernames from guests and replaces them with a text line of your c
 license: MPL 1.1
 version: 1.0.0
 allhooks: yes
-elkversion: 1.0
+elkversion: 1.0-1.1
 support: http://www.elkarte.net/community/index.php?topic=1369.0
 bugs: https://github.com/Spuds/Elk-Hide-User-Names/issues
 author: spuds

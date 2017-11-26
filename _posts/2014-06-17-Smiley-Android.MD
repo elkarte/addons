@@ -8,7 +8,7 @@ short: "Adds a set of Droid smileys to your forum"
 license: Apache
 version: 1.0.0
 allhooks: yes
-elkversion: 1.0
+elkversion: 1.0-1.1
 support: http://www.elkarte.net/community/index.php?topic=1581.0
 bugs: https://github.com/Spuds/Elk-Droid-Smiley/issues
 author: spuds
