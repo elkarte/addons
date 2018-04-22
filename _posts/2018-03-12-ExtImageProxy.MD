@@ -14,15 +14,16 @@ support: https://github.com/tinoest/ElkExtImageProxy
 bugs: https://github.com/tinoest/ElkExtImageProxy/issues
 author: tinoest
 thumbnail:
-download: https://github.com/tinoest/ElkExtImageProxy/archive/1.0.0.tar.gz
+download: https://tinoest.co.uk/releases/?project=ElkExtImageProxy
 images:
 ---
 
 ## Introduction:
 This allows you to utilise the images.weserv.nl service which is an image cache & resize proxy
+You can also configure it to use a camo proxy service or nginx
 
 ## Features:
- - Utilise Images.weserv.nl to serve all http images
+ - Utilise a external image proxy service such as images.weserv.nl, camo or nginx to serve all http images
 
 ## Installation:
 Simply install the package to install this addon on ElkArte. It is enabled via the Addon Settings

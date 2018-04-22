@@ -2,7 +2,7 @@
 layout: post
 title: "Stop Forum Spam"
 pkid: "tinoest:StopForumSpam"
-category: enhancement
+category: security
 date: 2018-04-14
 comments: false
 short: "Query the Stop Forum Spam database on user registration and refuse access if above threshold"
@@ -14,7 +14,7 @@ support: https://github.com/tinoest/ElkStopForumSpam
 bugs: https://github.com/tinoest/ElkStopForumSpam/issues
 author: tinoest
 thumbnail:
-download: https://github.com/tinoest/ElkStopForumSpam/releases/tag/V1.0.0
+download: https://tinoest.co.uk/releases/?project=ElkStopForumSpam
 images:
 ---
 
