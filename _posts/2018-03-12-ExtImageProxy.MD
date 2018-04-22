@@ -14,7 +14,7 @@ support: https://github.com/tinoest/ElkExtImageProxy
 bugs: https://github.com/tinoest/ElkExtImageProxy/issues
 author: tinoest
 thumbnail:
-download: https://tinoest.co.uk/releases/?project=ElkExtImageProxy
+download: https://tinoest.co.uk/releases/ElkExtImageProxy.zip
 images:
 ---
 
