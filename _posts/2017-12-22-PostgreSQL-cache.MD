@@ -14,7 +14,7 @@ support: https://github.com/tinoest/ElkartePostgreSQLCache
 bugs: https://github.com/tinoest/ElkartePostgreSQLCache/issues
 author: tinoest
 thumbnail:
-download: https://tinoest.co.uk/releases/?project=PostgreSQLCache
+download: https://tinoest.co.uk/releases/PostgreSQLCache.zip
 images:
 ---
 

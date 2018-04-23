@@ -14,7 +14,7 @@ support: https://github.com/tinoest/ElkStopForumSpam
 bugs: https://github.com/tinoest/ElkStopForumSpam/issues
 author: tinoest
 thumbnail:
-download: https://tinoest.co.uk/releases/?project=ElkStopForumSpam
+download: https://tinoest.co.uk/releases/ElkStopForumSpam.zip
 images:
 ---
 

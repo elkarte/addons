@@ -14,7 +14,7 @@ support: https://github.com/tinoest/ElkarteMySQLCache
 bugs: https://github.com/tinoest/ElkarteMySQLCache/issues
 author: tinoest
 thumbnail:
-download: https://tinoest.co.uk/releases/?project=MySQLCache
+download: https://tinoest.co.uk/releases/MySQLCache.zip
 images:
 ---
 
