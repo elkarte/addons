@@ -7,14 +7,14 @@ date: 2017-11-25
 comments: false
 short: "Allows your members to bookmark topics so they can find them easily in the future"
 license: BSD
-version: 2.5.0
+version: 2.5.1
 allhooks: yes
 elkversion: 1.0-1.1
 support: http://www.elkarte.net/community/index.php?topic=1811.0
 bugs: https://github.com/Spuds/Elk-Bookmarks/issues
 author: Aaron
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk-Bookmarks/master/sample-images/bookmarks.jpg
-download: https://github.com/Spuds/Elk-Bookmarks/releases/download/v2.5.0/elk_bookmarks.zip
+download: https://github.com/Spuds/Elk-Bookmarks/releases/download/v2.5.1/elk_bookmarks_251.zip
 images:
   - Settings: https://raw.githubusercontent.com/Spuds/Elk-Bookmarks/master/sample-images/one.jpg
   - Example: https://raw.githubusercontent.com/Spuds/Elk-Bookmarks/master/sample-images/bookmarks.jpg
