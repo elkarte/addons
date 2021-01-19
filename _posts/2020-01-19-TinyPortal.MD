@@ -3,7 +3,7 @@ layout: post
 title: "TinyPortal"
 pkid: "TinyPortal:TinyPortal"
 category: feature
-date: 2018-08-26
+date: 2020-01-19
 comments: false
 short: "TinyPortal implementation for Elkarte with built in Article and Blocks"
 license: BSD 3
