@@ -3,7 +3,7 @@ layout: post
 title: "Redis Caching"
 pkid: "tinoest:RedisCache"
 category: enhancement
-date: 2017-12-22
+date: 2021-02-22
 comments: false
 short: "Use a Redis database for caching data"
 license: BSD 3

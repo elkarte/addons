@@ -14,7 +14,7 @@ support: https://www.elkartemods.com/index.php?topic=41
 bugs: https://www.elkartemods.com/index.php?topic=41
 author: vbgamer45
 thumbnail:
-download: http://elkartemods.com/downloads/giphy.zip
+download: https://elkartemods.com/downloads/giphy.zip
 images:
   - Editor View: http://elkartemods.com/downloads/giphyelkarte.PNG
 ---
