@@ -3,14 +3,14 @@ layout: post
 title: "Social Links"
 pkid: "spuds:SocialLinks"
 category: enhancement
-date: 2017-11-23
+date: 2019-01-23
 comments: false
 short: "Display social links in the first post of a topic"
 license: "MPL 1.1"
-version: 0.3
+version: 0.4
 allhooks: yes
 elkversion: 1.0-1.1
-support: http://www.elkarte.net/community/index.php?topic=1784.0
+support: https://www.elkarte.net/community/index.php?topic=1784.0
 bugs: https://github.com/Spuds/Elk-Social-Links/issues
 author: spuds
 thumbnail:
