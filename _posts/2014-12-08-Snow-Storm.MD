@@ -3,18 +3,18 @@ layout: post
 pkid: "Spuds:letitsnow"
 title: "Snow for Elkarte"
 category: other
-date: 2017-11-24
+date: 2020-11-24
 comments: false
 short: "Adds a snow storm effect to your site."
 license: MPL 1.1
-version: 1.0.0
+version: 1.0.1
 allhooks: yes
 elkversion: 1.0-1.1
-support: http://www.elkarte.net/community/index.php?topic=2262.0
+support: https://www.elkarte.net/community/index.php?topic=2262.0
 bugs: https://github.com/Spuds/Elk_Snow/issues
 author: spuds
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk_Snow/master/sample_images/snow1.jpg
-download: https://github.com/Spuds/Elk_Snow/releases/download/v1.0.0/elk_noFrillsSnow.zip
+download: https://github.com/Spuds/Elk_Snow/releases/download/v1.0.1/elk_noFrillsSnow.zip
 images:
   - Settings: https://raw.githubusercontent.com/Spuds/Elk_Snow/master/sample_images/settings.jpg
   - Example: https://raw.githubusercontent.com/Spuds/Elk_Snow/master/sample_images/snow1.jpg
