@@ -1,7 +1,7 @@
 ---
 layout: post
 pkid: "Spuds:CloudFrontCDN"
-title: "Use Cloudfront CDN to server your static assets"
+title: "Use a Cloudfront CDN to serve static assets"
 category: feature
 date: 2021-05-04
 comments: false
