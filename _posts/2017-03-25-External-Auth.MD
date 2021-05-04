@@ -14,7 +14,7 @@ support: https://www.elkarte.net/community/index.php?topic=4370
 bugs: https://github.com/Spuds/Elk_Social_Login/issues
 author: spuds
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk_Social_Login/master/sample_images/sample3.png
-download: https://github.com/Spuds/Elk_Social_Login/releases/download/1.06/elk_external_auth_106.zip
+download: https://github.com/Spuds/Elk_Social_Login/releases/download/1.0.6/elk_external_auth_106.zip
 images:
   - Admin: https://raw.githubusercontent.com/Spuds/Elk_Social_Login/master/sample_images/sample1.png
   - Profile: https://raw.githubusercontent.com/Spuds/Elk_Social_Login/master/sample_images/sample2.png
