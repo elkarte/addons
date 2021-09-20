@@ -3,18 +3,18 @@ layout: post
 title: "Simple Portal"
 pkid: "[SiNaN]:SimplePortal"
 category: feature
-date: 2015-02-07
+date: 2021-09-19
 comments: false
 short: "Adds a portal to your forum, block, article and page support"
 license: BSD
-version: 1.0.0 Beta 1
+version: 1.0.0
 allhooks: no
-elkversion: 1.0.3
-support: http://www.elkarte.net/community/index.php?topic=1399.0
+elkversion: 1.1.7
+support: https://www.elkarte.net/community/index.php?topic=1399.0
 bugs: https://github.com/Spuds/Elk-SimplePortal/issues
 author: Simple Portal Team
 thumbnail:
-download: https://github.com/SimplePortal/SimplePortal_ElkArte/releases/download/v1.0.0-beta.1/elk_SimplePortal.zip
+download: https://github.com/SimplePortal/SimplePortal_ElkArte/releases/download/v1.0.0/elk_simple_portal-1.0.0.zip
 images:
 ---
 
@@ -28,17 +28,25 @@ All this and SimplePortal has remained Simple! SimplePortal is built for simplic
 ## Features:
 
 ### Blocks
-Blocks are small display areas you can add to the portal page or to forum pages. You can use blocks to add links for your users, or to show who is on line. With Simple Portal, the content part of any page can have LEFT and RIGHT blocks in left and right sidebars, and TOP and BOTTOM blocks between the sidebars above and below the central main content area.  There are also overall header and footer blocks that you can load with your content.
+Blocks are small display areas you can add to the portal page or to forum pages. You can use blocks to add links for your users, or to show who is online. With Simple Portal, the content part of any page can have LEFT and RIGHT blocks in left and right sidebars, and TOP and BOTTOM blocks between the sidebars above and below the central main content area. There are also overall HEADER and FOOTER blocks that you can load with your content.
 
-There are many built in blocks available so you can come up with a layout that suits your site.
+There are many built in blocks available, so you can come up with a layout that suits your site. Examples of blocks that are available are: Admin Info, Recent Attachments, Stats, Board News, Custom PHP, Custom HTML, Polls, Shoutbox, Recent Topics, User Info and many more.
+
+Users can also drag and drop the blocks to create a layout that works with their particular tastes or screens, etc.
 
 ### Articles
-With articles enabled, you will see articles on the Portal. You can also show a list of articles in an Articles block on the Portal or on a SimplePortal Page.
+With the article system enabled, you can easily publish them directly on the Portal, no block is necessary. You can also show articles on any SimplePortal Page, or wherever you have blocks displayed, using an article block.
+
+You can create your articles using BBCode, HTML, Markdown or even PHP depending on your needs. You can attach images to your articles and place them inline or aligned to the left or right to give them a blog look and feel.
+
+Articles are assigned to and organized by categories. You can easily create many different categories, and your users can then browse articles by category. No blog system would be complete without a comment functionality and SimplePortal makes that easy.
 
 ### Pages
-The Simple Portal Custom page is something like the Simple Portal Portal Page. It has areas for blocks surrounding a central area.  The center area of a Simple Portal Custom Page is like a Simple Portal Block. The center area is similar to a custom BBC, HTML, or PHP block. 
-When you create or edit a new Simple Portal Page, you will choose from BBC, HTML, or PHP. You will input your text, and save your page. You can discover the URL of the new page by looking at the pages list.
-If you want links to your new page to appear somewhere that others can see, you will have to place these links yourself.  But don't worry -- this part is simple. 
+The Simple Portal Custom page is something like the Simple Portal Portal Page. It has areas for blocks surrounding a central area. The center area of a Simple Portal Custom Page is like a Simple Portal Block. The center area is similar to a custom BBC, HTML, Markdown, or PHP block.
+
+When you create or edit a new Simple Portal Page, you will choose from BBC, HTML, Markdown, or PHP. You will input your text, and save your page. You can discover the URL of the new page by looking at the pages list.
+
+If you want links to your new page to appear somewhere that others can see, you will have to place these links yourself. But don't worry -- this part is simple.
 
 ## Installation:
 {% include install_std.MD %}
