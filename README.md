@@ -18,7 +18,7 @@ The front matter is what makes everything cool happen. The front matter must be 
 
 Don't want to learn YAML?, good neither did I and you don't have either, just follow along.  
   
-###Example front matter
+### Example front matter
 ```
 ---  
 layout: post  
