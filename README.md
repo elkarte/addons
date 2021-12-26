@@ -1,5 +1,5 @@
 ## Introduction
-You finished your addon and now want to add it to the [addon site](http://addons.elkarte.net), great!  
+You finished your addon and now want to add it to the [addon site](https://elkarte.github.io/addons/), great!  
   
 To do so you need to make a PR to the elkarte/addons repo, the how to fork a repo, make a local copy, apply your changes, and submit the PR are not part of this guide. There are many guides on how to do this and it all depends on what tools you have chosen. This help text assumes you know how to make a PR.  
   
