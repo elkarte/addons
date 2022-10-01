@@ -2,13 +2,13 @@
 layout: post
 title: "Footer Menu"
 category: enhancement
-date: 2016-08-07
+date: 2021-12-11
 comments: false
 short: "Appends a menu to the bottom of every page"
 license: MIT
 version: v1.0
 allhooks: yes
-elkversion: 1.0.7
+elkversion: 1.1
 support: http://www.elkarte.net/community/index.php?topic=3938.0
 bugs: https://github.com/live627/elk-footer-menu/issues
 author: live627
