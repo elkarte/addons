@@ -2,18 +2,19 @@
 layout: post
 title: "Image Proxy"
 category: enhancement
-date: 2021-04-27
+date: 2022-11-21
 comments: false
 short: "Allows browsers to show http images on https connections"
 license: MPL 1.1
-version: 1.0.5
+version: 1.0.6
+pkid: "spuds:imagecache"
 allhooks: yes
 elkversion: 1.1
 support: https://www.elkarte.net/community/index.php?topic=3432.0
 bugs: https://github.com/Spuds/Elk_Image_Cache/issues
 author: spuds
 thumbnail:
-download: https://github.com/Spuds/Elk_Image_Cache/releases/download/1.0.5/elk_image_proxy.zip
+download: https://github.com/Spuds/Elk_Image_Cache/releases/download/1.0.6/elk_image_proxy_1-1-6.zip
 images:
 ---
 
