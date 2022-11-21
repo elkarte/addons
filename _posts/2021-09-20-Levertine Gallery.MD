@@ -1,20 +1,20 @@
 ---
 layout: post
-pkid: "Spuds:LevGallery"
+pkid: "Levertine:Gallery"
 title: "Modern fully featured Gallery"
 category: feature
-date: 2021-09-20
+date: 2022-11-20
 comments: false
 short: "A Gallery to provide a photo/video/document library for your community"
 license: LGPL 3
-version: 1.1.1
+version: 1.2.0
 allhooks: yes
 elkversion: 1.1.7
 support: https://www.elkarte.net/community/index.php?topic=5969
 bugs: https://github.com/Spuds/Elk_Gallery/issues
 author: Peter Spicer
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk_Gallery/Main/sample_images/main.jpg
-download: https://github.com/Spuds/Elk_Gallery/releases/download/1.1.1/elk_LevGallery.zip
+download: https://github.com/Spuds/Elk_Gallery/releases/download/1.2.0/elk_LevGallery.zip
 images:
   - Main: https://raw.githubusercontent.com/Spuds/Elk_Gallery/Main/sample_images/main.jpg
   - Item: https://raw.githubusercontent.com/Spuds/Elk_Gallery/Main/sample_images/item.jpg
@@ -22,11 +22,11 @@ images:
 ---
 
 ### Intro
-Levertine Gallery 1.1.1 (Beta). This is an adaption of the Levertine Gallery to the ElkArte Platform.
+Levertine Gallery 1.2.0. This is an adaption of the Levertine Gallery to the ElkArte Platform.
 
 ### Features
 - Supports uploading huge files out of the box - no matter what your server configuration is.
-- Uploading in bulk is available straight away. It is built using HTML5 so it works even on mobile devices, for example to upload photos straight off your phone direct to the forum! Phones, tablets, desktops, all the features are available on all platforms!
+- Uploading in bulk is available straight away. It is built using HTML5, so it works even on mobile devices, for example to upload photos straight off your phone direct to the forum! Phones, tablets, desktops, all the features are available on all platforms!
 - Supports image, video, audio, document, archive and other formats.  All selectable by the admin
 - Supports metadata/exif for most image, audio and video formats.
 - Robust quota system, customizable by member/group/media type and more.
@@ -50,4 +50,4 @@ All come as standard and are ready to go as soon as you install and start upload
 {% include install_std.MD %}
 
 ### License:
-{% include license.MD param="MPL 1.1" %}
+{% include license.MD param="LGPL3" %}
