@@ -3,18 +3,18 @@ layout: post
 pkid: "Spuds:ExternalAuth"
 title: "External Authentication with Social Media Sites"
 category: feature
-date: 2022-10-30
+date: 2022-11-27
 comments: false
 short: "Allows your users to connect with one click to your ElkArte Forum using their social network accounts."
 license: closed
-version: 1.1.0
+version: 1.1.1
 allhooks: yes
 elkversion: 1.1
 support: https://www.elkarte.net/community/index.php?topic=4370
 bugs: https://github.com/Spuds/Elk_Social_Login/issues
 author: spuds
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk_Social_Login/master/sample_images/sample3.png
-download: https://github.com/Spuds/Elk_Social_Login/releases/download/1.1.0/elk_external_auth_110.zip
+download: https://github.com/Spuds/Elk_Social_Login/releases/download/1.1.1/elk_external_auth_111.zip
 images:
   - Admin: https://raw.githubusercontent.com/Spuds/Elk_Social_Login/master/sample_images/sample1.png
   - Profile: https://raw.githubusercontent.com/Spuds/Elk_Social_Login/master/sample_images/sample2.png
