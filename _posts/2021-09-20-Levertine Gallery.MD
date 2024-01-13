@@ -3,18 +3,18 @@ layout: post
 pkid: "Levertine:Gallery"
 title: "Modern fully featured Gallery"
 category: feature
-date: 2022-11-20
+date: 2024-01-07
 comments: false
 short: "A Gallery to provide a photo/video/document library for your community"
 license: LGPL 3
-version: 1.2.0
+version: 1.2.1
 allhooks: yes
 elkversion: 1.1.7
 support: https://www.elkarte.net/community/index.php?topic=5969
 bugs: https://github.com/Spuds/Elk_Gallery/issues
 author: Peter Spicer
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk_Gallery/Main/sample_images/main.jpg
-download: https://github.com/Spuds/Elk_Gallery/releases/download/1.2.0/elk_LevGallery.zip
+download: https://github.com/Spuds/Elk_Gallery/releases/download/1.2.1/elk_LevGallery_1-2-1.zip
 images:
   - Main: https://raw.githubusercontent.com/Spuds/Elk_Gallery/Main/sample_images/main.jpg
   - Item: https://raw.githubusercontent.com/Spuds/Elk_Gallery/Main/sample_images/item.jpg
