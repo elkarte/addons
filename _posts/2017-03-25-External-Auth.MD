@@ -3,7 +3,7 @@ layout: post
 pkid: "Spuds:ExternalAuth"
 title: "External Authentication with Social Media Sites"
 category: feature
-date: 2022-11-27
+date: 2024-01-12
 comments: false
 short: "Allows your users to connect with one click to your ElkArte Forum using their social network accounts."
 license: closed
