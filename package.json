@@ -19,7 +19,7 @@
             "license"     : {% if post.license %}"{{ post.license }}"{% else %}""{% endif %},
             "server"      : [
                 {
-                    "url"         : "{{ site:baseurl }}{{ post.url }}",
+                    "url"         : "{{ site.baseurl }}{{ post.url }}",
                     "download"    : "{{ post.download }}",
                     "bugs"        : {% if post.bugs %}"{{ post.bugs }}"{% else %}""{% endif %},
                     "support"     : {% if post.support %}"{{ post.support }}"{% else %}""{% endif %}
