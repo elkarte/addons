@@ -2,6 +2,7 @@
 
 # Name of your site (this will show up at the top of your page and in the RSS feed)
 name: ElkArte Addons
+title: ElkArte Addons
 
 # Short description (goes below the title; it will also be used in the RSS feed)
 description: Addons to extend / enhance the functionality of your forum.
@@ -9,7 +10,7 @@ description: Addons to extend / enhance the functionality of your forum.
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
 # baseurl: 'https://addons.elkarte.net'
-baseurl: 'https://elkarte.github.io/addons/'
+baseurl: 'https://elkarte.github.io/addons'
 
 # This can be '' to hide the Github nav button
 github: 'elkarte/addons'
@@ -18,7 +19,9 @@ github: 'elkarte/addons'
 gaaccount: ''
 
 # Gems
-gems: [jekyll-paginate]
+plugins:
+  - jemoji
+  - jekyll-gist
 
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
@@ -26,14 +29,26 @@ gems: [jekyll-paginate]
 disqus: ''
 comments: false
 
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
 # Our permalinks will be addon category / addon name.html
 permalink: /:categories/:title.html
-paginate: 5
+paginate: 8
 
-highlighter: rouge
+# Conversion
 markdown: kramdown
+highlighter: rouge
+
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
 
 exclude: [vendor]
