@@ -14,7 +14,7 @@ support: https://www.elkarte.net/community/index.php?topic=1372.0
 bugs: https://github.com/Spuds/Elk_Resize_Attachment_Images/issues
 author: spuds
 thumbnail:
-download: https://github.com/Spuds/Elk_Resize_Attachment_Images/releases/download/V1.0.7/elk_ResizeAttachedImages.zip
+download:  https://github.com/Spuds/Elk_Resize_Attachment_Images/releases/download/V1.0.7/elk_ResizeAttachedImages.zip
 images:
 ---
 
