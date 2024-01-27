@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Miserable User"
+pkid: Spuds:Misery
 category: admin
 date: 2014-11-26
 comments: false
@@ -13,7 +14,7 @@ support: https://www.elkarte.net/community/index.php?topic=1907.0
 bugs: https://github.com/Spuds/Elk-Misery/issues
 author: spuds
 thumbnail:
-download: hhttps://github.com/Spuds/Elk-Misery/releases/download/V1.1.1/elk_Misery.zip
+download: https://github.com/Spuds/Elk-Misery/releases/download/V1.1.1/elk_Misery.zip
 images:
 ---
 
