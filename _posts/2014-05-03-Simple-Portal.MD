@@ -3,18 +3,18 @@ layout: post
 title: "Simple Portal"
 pkid: "[SiNaN]:SimplePortal"
 category: feature
-date: 2024-01-01
+date: 2024-02-09
 comments: false
 short: "Adds a portal to your forum, block, article and page support"
 license: BSD
-version: 1.0.2
+version: 1.0.3
 allhooks: no
 elkversion: 1.1.7
 support: https://www.elkarte.net/community/index.php?topic=1399.0
 bugs: https://github.com/Spuds/Elk-SimplePortal/issues
 author: Simple Portal Team
 thumbnail:
-download: https://github.com/SimplePortal/SimplePortal_ElkArte/releases/download/1.0.2/elk_simple_portal-1.0.2.zip
+download: https://github.com/SimplePortal/SimplePortal_ElkArte/releases/download/1.0.3/elk_simple_portal-1.0.3.zip
 images:
 ---
 
