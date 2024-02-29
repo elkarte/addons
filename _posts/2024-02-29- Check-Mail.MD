@@ -17,7 +17,7 @@ thumbnail: https://raw.githubusercontent.com/Spuds/Elk_Check_Mail/master/sample_
 download: https://github.com/Spuds/Elk_Check_Mail/releases/download/v1.0.0/checkmail_1-0-0.zip
 images:
   - checkmail: https://raw.githubusercontent.com/Spuds/Elk_Check_Mail/master/sample_images/checkmail.jpg
-  - failure: https://raw.githubusercontent.com/Spuds/Elk_Check_Mail/master/sample_images/failure.jpg
+  - failure: https://raw.githubusercontent.com/Spuds/Elk_Check_Mail/master/sample_images/failure.png
 
 ---
 
