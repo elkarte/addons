@@ -11,7 +11,7 @@ version: 1.0.3
 allhooks: no
 elkversion: 1.1.7
 support: https://www.elkarte.net/community/index.php?topic=1399.0
-bugs: https://github.com/Spuds/Elk-SimplePortal/issues
+bugs: https://github.com/SimplePortal/SimplePortal_ElkArte/issues
 author: Simple Portal Team
 thumbnail:
 download: https://github.com/SimplePortal/SimplePortal_ElkArte/releases/download/1.0.3/elk_simple_portal-1.0.3.zip
