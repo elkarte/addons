@@ -3,18 +3,18 @@ layout: post
 pkid: "Levertine:Gallery"
 title: "Modern fully featured Gallery"
 category: feature
-date: 2024-01-07
+date: 2024-02-14
 comments: false
 short: "A Gallery to provide a photo/video/document library for your community"
 license: LGPL 3
-version: 1.2.1
+version: 1.2.2
 allhooks: yes
 elkversion: 1.1.7
 support: https://www.elkarte.net/community/index.php?topic=5969
 bugs: https://github.com/Spuds/Elk_Gallery/issues
 author: Peter Spicer
 thumbnail: https://raw.githubusercontent.com/Spuds/Elk_Gallery/Main/sample_images/main.jpg
-download: https://github.com/Spuds/Elk_Gallery/releases/download/1.2.1/elk_LevGallery_1-2-1.zip
+download: https://github.com/Spuds/Elk_Gallery/releases/download/1.2.2/elk_LevGallery_1-2-2.zip
 images:
   - Main: https://raw.githubusercontent.com/Spuds/Elk_Gallery/Main/sample_images/main.jpg
   - Item: https://raw.githubusercontent.com/Spuds/Elk_Gallery/Main/sample_images/item.jpg
@@ -22,7 +22,7 @@ images:
 ---
 
 ### Intro
-Levertine Gallery 1.2.0. This is an adaption of the Levertine Gallery to the ElkArte Platform.
+Levertine Gallery 1.2.2. This is an adaption of the Levertine Gallery to the ElkArte Platform.
 
 ### Features
 - Supports uploading huge files out of the box - no matter what your server configuration is.
