@@ -55,7 +55,7 @@ pre.prettyprint {
 	margin: -5px 0 0 20px;
 }
 
-.card {
+.card:not(.mb-3) {
 	padding: .25rem .5rem;
 }
 
