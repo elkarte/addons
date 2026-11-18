@@ -66,9 +66,8 @@
 
     {% for count in (2..paginator.total_pages) %}
         {% if count >= limitprev and count <= limitnext %}
-            {% assign relative_to_current = paginator.page | minus: count | replace: '-', '' | divided_by: 1 %}
             {% unless count == totalpages %}
-            <li class="page-item offset-{{relative_to_current}}{% if count == paginator.page %} active{% endif %}">
+            <li class="page-item{% if count == paginator.page %} active{% endif %}">
                 {% if count == paginator.page %}
                 <span class="page-link"><span aria-hidden="true">{{ count }}</span></span>
                 {% else %}
