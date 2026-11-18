@@ -37,6 +37,10 @@ pre.prettyprint {
 	color: #EE4444;
 }
 
+.navbar {
+	z-index: 1030;
+}
+
 .navbar-brand > img {
 	max-height: 30px;
 }
@@ -47,5 +51,6 @@ pre.prettyprint {
 
 #results-container {
 	position: absolute;
+	z-index: 1030;
 	margin: -5px 0 0 20px;
 }
