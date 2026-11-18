@@ -54,14 +54,14 @@ current: enhancement
 				{% if post.thumbnail %}
 				<div class="border rounded p-1 mb-2">
 					{% if post.thumbnail contains 'http://' or post.thumbnail contains 'https://' %}
-					<img class="rounded" src="{{ post.thumbnail }}" alt="{{ post.title | escape }}">
+					<img class="img-fluid rounded" src="{{ post.thumbnail }}" alt="{{ post.title | escape }}">
 					{% else %}
-					<img class="rounded" src="{{ site.baseurl }}{{ post.thumbnail }}" alt="{{ post.title | escape }}">
+					<img class="img-fluid rounded" src="{{ site.baseurl }}{{ post.thumbnail }}" alt="{{ post.title | escape }}">
 					{% endif %}
 				</div>
 				{% else %}
 				<div class="mb-2">
-					<img class="rounded" src="{{ site.baseurl }}/assets/images/addons.png" alt="{{ post.title | escape }}">
+					<img class="img-fluid rounded" src="{{ site.baseurl }}/assets/images/addons.png" alt="{{ post.title | escape }}">
 				</div>
 				{% endif %}
 				<a href="{{ post.download }}" class="btn btn-info w-100"><i class="bi bi-download me-1"></i> Download</a>

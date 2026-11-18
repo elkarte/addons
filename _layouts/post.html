@@ -53,10 +53,10 @@
 							<div class="col-4">
 								{% if image[1] contains 'http://' or image[1] contains 'https://'%}
 								<a href="{{ image[1] }}" class="d-inline-block border rounded p-1">
-									<img src="{{ image[1] }}" alt="{{ image[0] }}">
+									<img class="img-fluid" src="{{ image[1] }}" alt="{{ image[0] }}">
 								{% else %}
 								<a href="{{ site.baseurl }}{{ image[1] }}" class="d-inline-block border rounded p-1">
-									<img src="{{ site.baseurl }}{{ image[1] }}" alt="{{ image[0] }}">
+									<img class="img-fluid" src="{{ site.baseurl }}{{ image[1] }}" alt="{{ image[0] }}">
 								{% endif %}
 								</a>
 							</div>
