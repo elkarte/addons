@@ -59,6 +59,6 @@ pre.prettyprint {
 	padding: .25rem .5rem;
 }
 
-.btn {
+.btn:not(.btn-outline-secondary) {
 	margin-bottom: .5rem;
 }
