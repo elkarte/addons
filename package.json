@@ -2,27 +2,27 @@
 ---
 {
     {% for category in site.categories %}
-    "{{ category[0] }}" : [
+    {{ category[0] | jsonify }} : [
         {% for posts in category %}
             {% for post in posts %}
                 {% if post.title %}
         {
-            "pkid"        : {% if post.pkid %}"{{ post.pkid }}"{% else %}""{% endif %},
-            "title"       : "{{ post.title | strip_html }}",
-            "category"    : "{{ post.category }}",
-            "short"       : "{{ post.short | strip_html }}",
-            "author"      : "{{ post.author | strip_html }}",
-            "version"     : "{{ post.version }}",
-            "date"        : "{{ post.date | strip_html }}",
-            "allhooks"    : "{{ post.allhooks }}",
-            "elkversion"  : "{{ post.elkversion }}",
-            "license"     : {% if post.license %}"{{ post.license }}"{% else %}""{% endif %},
+            "pkid"        : {% if post.pkid %}{{ post.pkid | jsonify }}{% else %}""{% endif %},
+            "title"       : {{ post.title | strip_html | jsonify }},
+            "category"    : {{ post.category | jsonify }},
+            "short"       : {{ post.short | strip_html | jsonify }},
+            "author"      : {{ post.author | strip_html | jsonify }},
+            "version"     : {{ post.version | append: '' | jsonify }},
+            "date"        : {{ post.date | strip_html | jsonify }},
+            "allhooks"    : {{ post.allhooks | append: '' | jsonify }},
+            "elkversion"  : {{ post.elkversion | append: '' | jsonify }},
+            "license"     : {% if post.license %}{{ post.license | jsonify }}{% else %}""{% endif %},
             "server"      : [
                 {
-                    "url"         : "{{ site.baseurl }}{{ post.url }}",
-                    "download"    : "{{ post.download }}",
-                    "bugs"        : {% if post.bugs %}"{{ post.bugs }}"{% else %}""{% endif %},
-                    "support"     : {% if post.support %}"{{ post.support }}"{% else %}""{% endif %}
+                    "url"         : {{ site.baseurl | append: post.url | jsonify }},
+                    "download"    : {{ post.download | jsonify }},
+                    "bugs"        : {% if post.bugs %}{{ post.bugs | jsonify }}{% else %}""{% endif %},
+                    "support"     : {% if post.support %}{{ post.support | jsonify }}{% else %}""{% endif %}
                 }
             ]
         } {% unless forloop.last %},{% endunless %}

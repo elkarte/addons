@@ -1,17 +1,17 @@
 {% capture cat %}{{ page.category | downcase }}{% endcapture %}
 {% include pretty_cat.html %}
 <!-- Just note these are 3rd party, use at own peril -->
-<div class="panel panel-danger alert">
-	<div class="panel-body bg-warning">
-		<i class="glyphicon glyphicon-info-sign text-warning" style="font-size: 1.5em" aria-hidden="true"></i>
+<div class="card border-danger mb-3">
+	<div class="card-body bg-warning">
+		<i class="bi bi-info-circle text-warning" style="font-size: 1.5em" aria-hidden="true"></i>
 		This is a community contributed addon, it has not been tested nor code reviewed.
 	</div>
 </div>
 <!-- Most recent from same category -->
 <div class="list-group">
-	<a href="#" class="list-group-item disabled">
+	<span class="list-group-item disabled">
 		Other <u>{{ cat }}</u> Addons
-	</a>
+	</span>
 	{% for category in site.categories %}
 		{% if category[0] == page.category %}
 			{% for posts in category %}
@@ -20,7 +20,7 @@
 				<a class="list-group-item" href="{{ site.baseurl}}{{ post.url }}">
 					{{ post.title }}
 					<br>
-					<i class="glyphicon glyphicon-hand-right" aria-hidden="true"></i><span> {{ post.date | date: "%d %b %Y" }}</span>
+					<i class="bi bi-arrow-right" aria-hidden="true"></i><span> {{ post.date | date: "%d %b %Y" }}</span>
 				</a>
 						{% if forloop.index == 8 %}
 							{% break %}
@@ -33,18 +33,18 @@
 </div>
 <!-- Others from the same author -->
 <div class="list-group">
-	<a href="#" class="list-group-item disabled">
+	<span class="list-group-item disabled">
 		More addons from <u>{{ page.author }}</u>
-	</a>
+	</span>
 	{% assign authors = site.posts | group_by: "author" %}
 	{% for aposts in authors %}
 		{% if aposts.name == page.author %}
 			{% for post in aposts.items %}
 				{% if post.title != page.title %}
-			<a class="list-group-item"href="{{ site.baseurl}}{{ post.url }}">
+			<a class="list-group-item" href="{{ site.baseurl}}{{ post.url }}">
 				{{ post.title }}
 				<br>
-				<i class="glyphicon glyphicon-hand-right" aria-hidden="true"></i><span> {{ post.date | date: "%d %b %Y" }}</span>
+				<i class="bi bi-arrow-right" aria-hidden="true"></i><span> {{ post.date | date: "%d %b %Y" }}</span>
 			</a>
 					{% if forloop.index == 8 %}
 						{% break %}

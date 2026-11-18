@@ -1,11 +1,9 @@
 <footer>
-    <nav class="navbar navbar-default" role="navigation">
-		<div class="container-fluid">
-			<div class="copyright">
-				&copy;{{ site.time | date: '%Y' }} {{ site.name }}.
-			</div>
+	<div class="container-fluid">
+		<div class="copyright">
+			&copy;{{ site.time | date: '%Y' }} {{ site.name }}.
 		</div>
-    </nav>
+	</div>
 </footer>
 
 {% include disqus-counts.html %}
@@ -21,6 +19,13 @@
 		limit: 10,
 		fuzzy: false,
 	})
+</script>
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		if (typeof window.prettyPrint === 'function') {
+			window.prettyPrint();
+		}
+	});
 </script>
 
 </body>

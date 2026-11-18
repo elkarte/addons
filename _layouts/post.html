@@ -2,17 +2,17 @@
 
 <div class="container container-left">
     <div class="row">
-        <div class="col-md-3 hidden-xs hidden-sm">
+        <div class="col-md-3 d-none d-md-block">
             {% include sidebar_details.html %}
         </div>
         <div class="col-md-9">
 			<div class="article">
-				<div class="well">
+				<div class="card">
 					<h2>
 						<a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
 					</h2>
 					<p>
-						<i class="glyphicon glyphicon-calendar" aria-hidden="true"></i>Last Update: {{ page.date | date: "%b %-d, %Y" }}
+						<i class="bi bi-calendar3" aria-hidden="true"></i>Last Update: {{ page.date | date: "%b %-d, %Y" }}
 					</p>
 					<!-- Site Comments header if enabled -->
 					{% if site.comments == true and page.comments == true and site.disqus != '' %}
@@ -21,18 +21,18 @@
 					<!-- All hooks based addons get a thumbs up, otherwise a notice about edits -->
 					{% if page.allhooks == true or page.allhooks == yes %}
 						{% if page.category != 'smiley' %}
-					<div class="panel panel-default">
-						<div class="panel-body bg-info"><big>
-							<i class="glyphicon glyphicon-thumbs-up text-success" style="font-size: 1.5em" aria-hidden="true"></i>
-							This addon is <u>100% hooks based</u> requiring no source edits to install.</big>
+					<div class="card mb-3">
+						<div class="card-body bg-info"><span class="lead">
+							<i class="bi bi-hand-thumbs-up text-success" style="font-size: 1.5em" aria-hidden="true"></i>
+							This addon is <u>100% hooks based</u> requiring no source edits to install.</span>
 						</div>
 					</div>
 						{% endif %}
 					{% else %}
-					<div class="panel panel-default">
-						<div class="panel-body bg-warning"><big>
-							<i class="glyphicon glyphicon-pencil text-warning" style="font-size: 1.5em" aria-hidden="true"></i>
-							This addon is requires some source edits to install.</big>
+					<div class="card mb-3">
+						<div class="card-body bg-warning"><span class="lead">
+							<i class="bi bi-pencil text-warning" style="font-size: 1.5em" aria-hidden="true"></i>
+							This addon requires some source edits to install.</span>
 						</div>
 					</div>
 					{% endif %}
@@ -50,12 +50,12 @@
 						{% for image_hash in page.images %}
 							{% capture modulo %}{{ forloop.index | modulo:3 }}{% endcapture %}
 							{% for image in image_hash %}
-							<div class="col-xs-4">
+							<div class="col-4">
 								{% if image[1] contains 'http://' or image[1] contains 'https://'%}
-								<a href="{{ image[1] }}" class="thumbnail">
+								<a href="{{ image[1] }}" class="d-inline-block border rounded p-1">
 									<img src="{{ image[1] }}" alt="{{ image[0] }}">
 								{% else %}
-								<a href="{{ site.baseurl }}{{ image[1] }}" class="thumbnail">
+								<a href="{{ site.baseurl }}{{ image[1] }}" class="d-inline-block border rounded p-1">
 									<img src="{{ site.baseurl }}{{ image[1] }}" alt="{{ image[0] }}">
 								{% endif %}
 								</a>
@@ -71,12 +71,12 @@
 					{% endif %}
 					<!-- The download button! -->
 					<div class="text-center">
-						<a href="{{ page.download }}" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-save"></i> Download</a>
+						<a href="{{ page.download }}" class="btn btn-primary btn-lg"><i class="bi bi-download"></i> Download</a>
 						{% if page.support and page.support != '' %}
-						<a href="{{ page.support }}" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-bullhorn"></i> Support</a>
+						<a href="{{ page.support }}" class="btn btn-primary btn-lg"><i class="bi bi-megaphone"></i> Support</a>
 						{% endif %}
 						{% if page.bugs and page.bugs != '' %}
-						<a href="{{ page.bugs }}" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-fire text-danger"></i> Issues</a>
+						<a href="{{ page.bugs }}" class="btn btn-primary btn-lg"><i class="bi bi-fire text-danger"></i> Issues</a>
 						{% endif %}
 					</div>
 					<!-- Comment body if comments are enabled -->
@@ -88,15 +88,15 @@
 				</div>
 			</div>
 			<nav>
-				<ul class="pager">
+				<ul class="pagination justify-content-center">
 					{% if page.previous %}
-					<li class="previous">
-						<a href="{{ site.baseurl}}{{ page.previous.url }}"><span aria-hidden="true"><i class="glyphicon glyphicon-arrow-left"></i></span> Previous</a>
+					<li class="page-item">
+						<a class="page-link" href="{{ site.baseurl}}{{ page.previous.url }}" rel="prev"><span aria-hidden="true"><i class="bi bi-arrow-left"></i></span> Previous</a>
 					</li>
 					{% endif %}
 					{% if page.next %}
-					<li class="next">
-						<a href="{{ site.baseurl}}{{ page.next.url }}">Next <span aria-hidden="true"><i class="glyphicon glyphicon-arrow-right"></i></span></a>
+					<li class="page-item">
+						<a class="page-link" href="{{ site.baseurl}}{{ page.next.url }}" rel="next">Next <span aria-hidden="true"><i class="bi bi-arrow-right"></i></span></a>
 					</li>
 					{% endif %}
 				</ul>
